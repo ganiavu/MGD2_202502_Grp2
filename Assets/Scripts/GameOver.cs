@@ -21,4 +21,14 @@ public class GameOver : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void CreditMenu()
+    {
+        SceneManager.LoadScene("CreditMenu");
+    }
+
+    public void VolumeMenu()
+    {
+        SceneManager.LoadScene("VolumeMenu");
+    }
 }
