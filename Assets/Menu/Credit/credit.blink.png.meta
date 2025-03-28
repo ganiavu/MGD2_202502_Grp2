@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 7a6b041e56160d84e883175f0e5a2025
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8171694260073856890
+    second: credit.blink_0
+  - first:
+      213: -6935578811944133006
+    second: credit.blink_1
+  - first:
+      213: -3820689656517407289
+    second: credit.blink_2
+  - first:
+      213: 53342892854322081
+    second: credit.blink_3
+  - first:
+      213: -969695711368068050
+    second: credit.blink_4
+  - first:
+      213: -801866240650743641
+    second: credit.blink_5
+  - first:
+      213: 6152923185255604686
+    second: credit.blink_6
+  - first:
+      213: -8203585481985422983
+    second: credit.blink_7
+  - first:
+      213: 3447529465048803881
+    second: credit.blink_8
+  - first:
+      213: -7795764033447305621
+    second: credit.blink_9
+  - first:
+      213: 4252370963372683057
+    second: credit.blink_10
+  - first:
+      213: -4511958008017808785
+    second: credit.blink_11
+  - first:
+      213: -6351053148775378611
+    second: credit.blink_12
+  - first:
+      213: -7380500315110353983
+    second: credit.blink_13
+  - first:
+      213: -2559067133837220390
+    second: credit.blink_14
+  - first:
+      213: 8991516971289278479
+    second: credit.blink_15
+  - first:
+      213: 9156758487474558404
+    second: credit.blink_16
+  - first:
+      213: -2062955960660940243
+    second: credit.blink_17
+  - first:
+      213: -1496248997177412733
+    second: credit.blink_18
+  - first:
+      213: 5642371966507219321
+    second: credit.blink_19
+  - first:
+      213: 8997470623724201518
+    second: credit.blink_20
+  - first:
+      213: 2933809558649387655
+    second: credit.blink_21
+  - first:
+      213: 1054408872702151768
+    second: credit.blink_22
+  - first:
+      213: -7053591022542907116
+    second: credit.blink_23
+  - first:
+      213: 9082314253013606264
+    second: credit.blink_24
+  - first:
+      213: 9137651815488028340
+    second: credit.blink_25
+  - first:
+      213: 2740468537013763772
+    second: credit.blink_26
+  - first:
+      213: -9123488230474364670
+    second: credit.blink_27
+  - first:
+      213: 8563426375874218321
+    second: credit.blink_28
+  - first:
+      213: -4943864663440585061
+    second: credit.blink_29
+  - first:
+      213: 1695117088787110882
+    second: credit.blink_30
+  - first:
+      213: 8600972642464457127
+    second: credit.blink_31
+  - first:
+      213: 1335921880583506186
+    second: credit.blink_32
+  - first:
+      213: -8331815543722737981
+    second: credit.blink_33
+  - first:
+      213: 1135054442711717736
+    second: credit.blink_34
+  - first:
+      213: -6305500539844321511
+    second: credit.blink_35
+  - first:
+      213: 7312231183890188448
+    second: credit.blink_36
+  - first:
+      213: 6564370774708867391
+    second: credit.blink_37
+  - first:
+      213: -4586292675808001085
+    second: credit.blink_38
+  - first:
+      213: -3591365988095083199
+    second: credit.blink_39
+  - first:
+      213: -7555444286812648045
+    second: credit.blink_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: credit.blink_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 540
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0647163ee4ac70541861fd2b688c9f76
+      internalID: 1305992045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.blink_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 960
+        width: 540
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afffa6351e720904b8cad3a52508ccbd
+      internalID: -1749296546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.blink_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 540
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b325906ec66edd4a826c71d808a7472
+      internalID: -1810602255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.blink_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 540
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16757f2df2d24d54b8fe51fca081db40
+      internalID: -857328361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c65a22b024d36234ea02d0cd23c8446c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      credit.blink_0: 1305992045
+      credit.blink_1: -1749296546
+      credit.blink_2: -1810602255
+      credit.blink_3: -857328361
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

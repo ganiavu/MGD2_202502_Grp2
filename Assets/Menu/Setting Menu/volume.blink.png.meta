@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: e8f0035a70931924da3a1c44988a42ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5950303554570732766
+    second: volume.blink_0
+  - first:
+      213: 1901819785275328350
+    second: volume.blink_1
+  - first:
+      213: 1069379903693715383
+    second: volume.blink_2
+  - first:
+      213: -2598986437948084003
+    second: volume.blink_3
+  - first:
+      213: 8983562735131558172
+    second: volume.blink_4
+  - first:
+      213: -1460844418756041800
+    second: volume.blink_5
+  - first:
+      213: -2453880854814870141
+    second: volume.blink_6
+  - first:
+      213: -6838341532405103510
+    second: volume.blink_7
+  - first:
+      213: 2394044096637852649
+    second: volume.blink_8
+  - first:
+      213: -3060556024488250903
+    second: volume.blink_9
+  - first:
+      213: 842585645367447030
+    second: volume.blink_10
+  - first:
+      213: -2020311262780811079
+    second: volume.blink_11
+  - first:
+      213: 937046074010980299
+    second: volume.blink_12
+  - first:
+      213: 6048136605516431245
+    second: volume.blink_13
+  - first:
+      213: 1621491509177458373
+    second: volume.blink_14
+  - first:
+      213: 8518759803741041699
+    second: volume.blink_15
+  - first:
+      213: -9160687623926098609
+    second: volume.blink_16
+  - first:
+      213: -853020705819107302
+    second: volume.blink_17
+  - first:
+      213: -5665443254425134028
+    second: volume.blink_18
+  - first:
+      213: 5480247311233561758
+    second: volume.blink_19
+  - first:
+      213: -5280524246633196158
+    second: volume.blink_20
+  - first:
+      213: 1942058996597978949
+    second: volume.blink_21
+  - first:
+      213: -2194271673482639889
+    second: volume.blink_22
+  - first:
+      213: 3376277228818956714
+    second: volume.blink_23
+  - first:
+      213: 8693917951512054048
+    second: volume.blink_24
+  - first:
+      213: -7332053942595307476
+    second: volume.blink_25
+  - first:
+      213: 4835281863365704521
+    second: volume.blink_26
+  - first:
+      213: -6008948368466175336
+    second: volume.blink_27
+  - first:
+      213: -1791811120009375309
+    second: volume.blink_28
+  - first:
+      213: -936929348093130022
+    second: volume.blink_29
+  - first:
+      213: 6721811170971416447
+    second: volume.blink_30
+  - first:
+      213: -406635770567079544
+    second: volume.blink_31
+  - first:
+      213: -3402977210154844150
+    second: volume.blink_32
+  - first:
+      213: 3792871571921011131
+    second: volume.blink_33
+  - first:
+      213: 1673995307111814506
+    second: volume.blink_34
+  - first:
+      213: 6094728354036722378
+    second: volume.blink_35
+  - first:
+      213: 4524829418682434269
+    second: volume.blink_36
+  - first:
+      213: 2837232389183057476
+    second: volume.blink_37
+  - first:
+      213: -4684288584852401076
+    second: volume.blink_38
+  - first:
+      213: 8103906026952658184
+    second: volume.blink_39
+  - first:
+      213: -8712971729683118531
+    second: volume.blink_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: volume.blink_0
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1709
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b311471764c6da0800000000000000
+      internalID: -5950303554570732766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_1
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1683
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e574528b40f946a10800000000000000
+      internalID: 1901819785275328350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_2
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1658
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7fa994b5337de00800000000000000
+      internalID: 1069379903693715383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_3
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1592
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0fb0eca9b8eebd0800000000000000
+      internalID: -2598986437948084003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_4
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1194
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1104fce5b60cac70800000000000000
+      internalID: 8983562735131558172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_5
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1190
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b32fe3bdb90abbe0800000000000000
+      internalID: -1460844418756041800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_6
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1118
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385b0af1d5012fdd0800000000000000
+      internalID: -2453880854814870141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_7
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1089
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64813c7b945911a0800000000000000
+      internalID: -6838341532405103510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_8
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1090
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb58b4fb6a593120800000000000000
+      internalID: 2394044096637852649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_9
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 995
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e13231e288b685d0800000000000000
+      internalID: -3060556024488250903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 969
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd48f42e2771bb00800000000000000
+      internalID: 842585645367447030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 947
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b89a3e4c9966f3e0800000000000000
+      internalID: -2020311262780811079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 970
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf499b807e010d00800000000000000
+      internalID: 937046074010980299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 934
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ff7d4c23c4fe350800000000000000
+      internalID: 6048136605516431245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_14
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 924
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce95d2cfe1b08610800000000000000
+      internalID: 1621491509177458373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_15
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 903
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3247cdc38e6b83670800000000000000
+      internalID: 8518759803741041699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_16
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 858
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4551953423bed080800000000000000
+      internalID: -9160687623926098609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_17
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 855
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10699300367924f0800000000000000
+      internalID: -853020705819107302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_18
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 852
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c5bdc706d4061b0800000000000000
+      internalID: -5665443254425134028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 825
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94bd5bd4efbd0c40800000000000000
+      internalID: 5480247311233561758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 800
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2855793dc2fc7b6b0800000000000000
+      internalID: -5280524246633196158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 785
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547f2113e5493fa10800000000000000
+      internalID: 1942058996597978949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe58d59e9816c81e0800000000000000
+      internalID: -2194271673482639889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_23
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa18ef65042fade20800000000000000
+      internalID: 3376277228818956714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_24
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 367
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0298446805007a870800000000000000
+      internalID: 8693917951512054048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_25
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 315
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28ba9d39cf4f3a90800000000000000
+      internalID: -7332053942595307476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_26
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 330
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b3dce7c3f5a1340800000000000000
+      internalID: 4835281863365704521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_27
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 283
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a19efab4deb9ca0800000000000000
+      internalID: -6008948368466175336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_28
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 276
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b11f3f97453227e0800000000000000
+      internalID: -1791811120009375309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_29
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 253
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada4543d8bb5ff2f0800000000000000
+      internalID: -936929348093130022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_30
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 251
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77f00575aba84d50800000000000000
+      internalID: 6721811170971416447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 230
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889c16ecbe65b5af0800000000000000
+      internalID: -406635770567079544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_32
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 214
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0088f1d14236c0d0800000000000000
+      internalID: -3402977210154844150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_33
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 226
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb18703699cf2a430800000000000000
+      internalID: 3792871571921011131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 186
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a651214dcd93b3710800000000000000
+      internalID: 1673995307111814506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_35
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 193
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca2cd09523d49450800000000000000
+      internalID: 6094728354036722378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_36
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 112
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2cdc9f16c6bce30800000000000000
+      internalID: 4524829418682434269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_37
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 110
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e2d7e53dfdf5720800000000000000
+      internalID: 2837232389183057476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_38
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 96
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44947ab9501efeb0800000000000000
+      internalID: -4684288584852401076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_39
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 24
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d09ad589bd67070800000000000000
+      internalID: 8103906026952658184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume.blink_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 6
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36873a006e451780800000000000000
+      internalID: -8712971729683118531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      volume.blink_0: -5950303554570732766
+      volume.blink_1: 1901819785275328350
+      volume.blink_10: 842585645367447030
+      volume.blink_11: -2020311262780811079
+      volume.blink_12: 937046074010980299
+      volume.blink_13: 6048136605516431245
+      volume.blink_14: 1621491509177458373
+      volume.blink_15: 8518759803741041699
+      volume.blink_16: -9160687623926098609
+      volume.blink_17: -853020705819107302
+      volume.blink_18: -5665443254425134028
+      volume.blink_19: 5480247311233561758
+      volume.blink_2: 1069379903693715383
+      volume.blink_20: -5280524246633196158
+      volume.blink_21: 1942058996597978949
+      volume.blink_22: -2194271673482639889
+      volume.blink_23: 3376277228818956714
+      volume.blink_24: 8693917951512054048
+      volume.blink_25: -7332053942595307476
+      volume.blink_26: 4835281863365704521
+      volume.blink_27: -6008948368466175336
+      volume.blink_28: -1791811120009375309
+      volume.blink_29: -936929348093130022
+      volume.blink_3: -2598986437948084003
+      volume.blink_30: 6721811170971416447
+      volume.blink_31: -406635770567079544
+      volume.blink_32: -3402977210154844150
+      volume.blink_33: 3792871571921011131
+      volume.blink_34: 1673995307111814506
+      volume.blink_35: 6094728354036722378
+      volume.blink_36: 4524829418682434269
+      volume.blink_37: 2837232389183057476
+      volume.blink_38: -4684288584852401076
+      volume.blink_39: 8103906026952658184
+      volume.blink_4: 8983562735131558172
+      volume.blink_40: -8712971729683118531
+      volume.blink_5: -1460844418756041800
+      volume.blink_6: -2453880854814870141
+      volume.blink_7: -6838341532405103510
+      volume.blink_8: 2394044096637852649
+      volume.blink_9: -3060556024488250903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
