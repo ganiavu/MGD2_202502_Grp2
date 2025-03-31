@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: 3eb53ff582bc76841a0cb81340dcfd8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1789906257019491272
+    second: pause. clo.left_0
+  - first:
+      213: -6226813765541881783
+    second: pause. clo.left_1
+  - first:
+      213: 7602784772132512451
+    second: pause. clo.left_2
+  - first:
+      213: -2801999681176242267
+    second: pause. clo.left_3
+  - first:
+      213: -1949139965582822714
+    second: pause. clo.left_4
+  - first:
+      213: 4285849456848661999
+    second: pause. clo.left_5
+  - first:
+      213: 8206822505247306024
+    second: pause. clo.left_6
+  - first:
+      213: 8401750014861615467
+    second: pause. clo.left_7
+  - first:
+      213: -9183652698565410661
+    second: pause. clo.left_8
+  - first:
+      213: 8761803491430349890
+    second: pause. clo.left_9
+  - first:
+      213: 3954155036197917830
+    second: pause. clo.left_10
+  - first:
+      213: -1365047728758864222
+    second: pause. clo.left_11
+  - first:
+      213: -5451637818502947849
+    second: pause. clo.left_12
+  - first:
+      213: 3662576208891591592
+    second: pause. clo.left_13
+  - first:
+      213: -8782979690669889539
+    second: pause. clo.left_14
+  - first:
+      213: -7750680983362879064
+    second: pause. clo.left_15
+  - first:
+      213: 7611362842735035305
+    second: pause. clo.left_16
+  - first:
+      213: 7767367993191802327
+    second: pause. clo.left_17
+  - first:
+      213: -430914238671386116
+    second: pause. clo.left_18
+  - first:
+      213: 3374956960608345542
+    second: pause. clo.left_19
+  - first:
+      213: 2916783412239327199
+    second: pause. clo.left_20
+  - first:
+      213: -2576884433263532316
+    second: pause. clo.left_21
+  - first:
+      213: 7610850963769690070
+    second: pause. clo.left_22
+  - first:
+      213: -1807348836228675064
+    second: pause. clo.left_23
+  - first:
+      213: 5261819849861389461
+    second: pause. clo.left_24
+  - first:
+      213: 1807567255594591075
+    second: pause. clo.left_25
+  - first:
+      213: 7032137788764354748
+    second: pause. clo.left_26
+  - first:
+      213: 2930507235963919152
+    second: pause. clo.left_27
+  - first:
+      213: 3348961273256066749
+    second: pause. clo.left_28
+  - first:
+      213: -2659893181888678190
+    second: pause. clo.left_29
+  - first:
+      213: 3461013775180754713
+    second: pause. clo.left_30
+  - first:
+      213: 3995492330000203149
+    second: pause. clo.left_31
+  - first:
+      213: 7936397016816178097
+    second: pause. clo.left_32
+  - first:
+      213: -5935559957035507048
+    second: pause. clo.left_33
+  - first:
+      213: 3443277472389484450
+    second: pause. clo.left_34
+  - first:
+      213: -717940576244662471
+    second: pause. clo.left_35
+  - first:
+      213: 1029369275889318349
+    second: pause. clo.left_36
+  - first:
+      213: 1008323135562082343
+    second: pause. clo.left_37
+  - first:
+      213: 3514051285338941086
+    second: pause. clo.left_38
+  - first:
+      213: -560702020389384853
+    second: pause. clo.left_39
+  - first:
+      213: -3428051417991600432
+    second: pause. clo.left_40
+  - first:
+      213: 1478920380050909882
+    second: pause. clo.left_41
+  - first:
+      213: 4107491613781962199
+    second: pause. clo.left_42
+  - first:
+      213: -1072727388502510797
+    second: pause. clo.left_43
+  - first:
+      213: -7718054951964687096
+    second: pause. clo.left_44
+  - first:
+      213: -4679630422973491925
+    second: pause. clo.left_45
+  - first:
+      213: 657955593313333589
+    second: pause. clo.left_46
+  - first:
+      213: 5912130080905961095
+    second: pause. clo.left_47
+  - first:
+      213: -8321287263617599890
+    second: pause. clo.left_48
+  - first:
+      213: 2703182634032016650
+    second: pause. clo.left_49
+  - first:
+      213: -7240214540963177941
+    second: pause. clo.left_50
+  - first:
+      213: 8168086054909705709
+    second: pause. clo.left_51
+  - first:
+      213: 148413159831012195
+    second: pause. clo.left_52
+  - first:
+      213: 637960601605159187
+    second: pause. clo.left_53
+  - first:
+      213: -5485419716196781042
+    second: pause. clo.left_54
+  - first:
+      213: 8153380832099694605
+    second: pause. clo.left_55
+  - first:
+      213: -1165588537350418457
+    second: pause. clo.left_56
+  - first:
+      213: -7302566740187808133
+    second: pause. clo.left_57
+  - first:
+      213: -7928182888064885197
+    second: pause. clo.left_58
+  - first:
+      213: -3259360808592093471
+    second: pause. clo.left_59
+  - first:
+      213: 2152977840325433497
+    second: pause. clo.left_60
+  - first:
+      213: -1297637497906558847
+    second: pause. clo.left_61
+  - first:
+      213: 1512309352961753799
+    second: pause. clo.left_62
+  - first:
+      213: 6220937357463267041
+    second: pause. clo.left_63
+  - first:
+      213: 6880423902702906470
+    second: pause. clo.left_64
+  - first:
+      213: -3116719335375918662
+    second: pause. clo.left_65
+  - first:
+      213: 5552703562651557971
+    second: pause. clo.left_66
+  - first:
+      213: -8369115645651553307
+    second: pause. clo.left_67
+  - first:
+      213: -7203317023422434092
+    second: pause. clo.left_68
+  - first:
+      213: 7444498174548373447
+    second: pause. clo.left_69
+  - first:
+      213: -5808503429947950749
+    second: pause. clo.left_70
+  - first:
+      213: -2232627333936678497
+    second: pause. clo.left_71
+  - first:
+      213: -7515055343952268120
+    second: pause. clo.left_72
+  - first:
+      213: -4619038463178112232
+    second: pause. clo.left_73
+  - first:
+      213: 4388808048877023487
+    second: pause. clo.left_74
+  - first:
+      213: 7834995608108442803
+    second: pause. clo.left_75
+  - first:
+      213: -7539594481295650965
+    second: pause. clo.left_76
+  - first:
+      213: -6840444294749119576
+    second: pause. clo.left_77
+  - first:
+      213: -7325753999073735857
+    second: pause. clo.left_78
+  - first:
+      213: 8382944439833509265
+    second: pause. clo.left_79
+  - first:
+      213: -4423499087590877649
+    second: pause. clo.left_80
+  - first:
+      213: 189810795060464968
+    second: pause. clo.left_81
+  - first:
+      213: -2884090086926803025
+    second: pause. clo.left_82
+  - first:
+      213: -975513270313154402
+    second: pause. clo.left_83
+  - first:
+      213: 6314368299191682267
+    second: pause. clo.left_84
+  - first:
+      213: -7500747750802893671
+    second: pause. clo.left_85
+  - first:
+      213: 2874329098038290836
+    second: pause. clo.left_86
+  - first:
+      213: -2869999169375580335
+    second: pause. clo.left_87
+  - first:
+      213: -3891711442839787763
+    second: pause. clo.left_88
+  - first:
+      213: 7226322267093278825
+    second: pause. clo.left_89
+  - first:
+      213: -2093457490351654111
+    second: pause. clo.left_90
+  - first:
+      213: 3025475702854946104
+    second: pause. clo.left_91
+  - first:
+      213: -6375627339609489477
+    second: pause. clo.left_92
+  - first:
+      213: -2320282370057898817
+    second: pause. clo.left_93
+  - first:
+      213: 489126653587694380
+    second: pause. clo.left_94
+  - first:
+      213: -706417033459916344
+    second: pause. clo.left_95
+  - first:
+      213: -3606988327347585568
+    second: pause. clo.left_96
+  - first:
+      213: -545036745421018592
+    second: pause. clo.left_97
+  - first:
+      213: 8299368837520760698
+    second: pause. clo.left_98
+  - first:
+      213: -5201854154631527252
+    second: pause. clo.left_99
+  - first:
+      213: 3157008392609943293
+    second: pause. clo.left_100
+  - first:
+      213: 5602133313771257687
+    second: pause. clo.left_101
+  - first:
+      213: -5942012941699651651
+    second: pause. clo.left_102
+  - first:
+      213: -4359815270387302663
+    second: pause. clo.left_103
+  - first:
+      213: -6732007873866952827
+    second: pause. clo.left_104
+  - first:
+      213: 2125575812951603453
+    second: pause. clo.left_105
+  - first:
+      213: -4288242461134982490
+    second: pause. clo.left_106
+  - first:
+      213: -3055033330699658175
+    second: pause. clo.left_107
+  - first:
+      213: -4448236193497274318
+    second: pause. clo.left_108
+  - first:
+      213: 1642626239159132724
+    second: pause. clo.left_109
+  - first:
+      213: 7456704252677669078
+    second: pause. clo.left_110
+  - first:
+      213: -4625417609743427592
+    second: pause. clo.left_111
+  - first:
+      213: -3786237585132793032
+    second: pause. clo.left_112
+  - first:
+      213: -6409842722784973288
+    second: pause. clo.left_113
+  - first:
+      213: 1947927600580326484
+    second: pause. clo.left_114
+  - first:
+      213: -713953192773839960
+    second: pause. clo.left_115
+  - first:
+      213: 4079042897528863272
+    second: pause. clo.left_116
+  - first:
+      213: -4508044485934396805
+    second: pause. clo.left_117
+  - first:
+      213: -8411204621374037042
+    second: pause. clo.left_118
+  - first:
+      213: -6804674918227053439
+    second: pause. clo.left_119
+  - first:
+      213: 1609739589420007935
+    second: pause. clo.left_120
+  - first:
+      213: -5324066709017625416
+    second: pause. clo.left_121
+  - first:
+      213: -7662011328615989855
+    second: pause. clo.left_122
+  - first:
+      213: -6163535683745411543
+    second: pause. clo.left_123
+  - first:
+      213: -8972942023745490635
+    second: pause. clo.left_124
+  - first:
+      213: 3306200807692101168
+    second: pause. clo.left_125
+  - first:
+      213: 8564159532786746620
+    second: pause. clo.left_126
+  - first:
+      213: 4641030941096279654
+    second: pause. clo.left_127
+  - first:
+      213: -3180105646423113365
+    second: pause. clo.left_128
+  - first:
+      213: 8528347680686135991
+    second: pause. clo.left_129
+  - first:
+      213: 1326460917505391893
+    second: pause. clo.left_130
+  - first:
+      213: 2996259021553871330
+    second: pause. clo.left_131
+  - first:
+      213: 450390532936983745
+    second: pause. clo.left_132
+  - first:
+      213: -5570782802846909252
+    second: pause. clo.left_133
+  - first:
+      213: 726484070638550713
+    second: pause. clo.left_134
+  - first:
+      213: 2096301671645602639
+    second: pause. clo.left_135
+  - first:
+      213: -9082661245756921155
+    second: pause. clo.left_136
+  - first:
+      213: 7728509140490530974
+    second: pause. clo.left_137
+  - first:
+      213: 6012701608740487720
+    second: pause. clo.left_138
+  - first:
+      213: 3983429176001576679
+    second: pause. clo.left_139
+  - first:
+      213: -4433750255511400872
+    second: pause. clo.left_140
+  - first:
+      213: 5637161041827292040
+    second: pause. clo.left_141
+  - first:
+      213: -1171400072055696351
+    second: pause. clo.left_142
+  - first:
+      213: -790325404111634223
+    second: pause. clo.left_143
+  - first:
+      213: 7803717349439861990
+    second: pause. clo.left_144
+  - first:
+      213: 3085541281461514271
+    second: pause. clo.left_145
+  - first:
+      213: -7707951658387920262
+    second: pause. clo.left_146
+  - first:
+      213: 8845380801251079104
+    second: pause. clo.left_147
+  - first:
+      213: 5261817661175522948
+    second: pause. clo.left_148
+  - first:
+      213: 102194147365513962
+    second: pause. clo.left_149
+  - first:
+      213: -4972803012181412753
+    second: pause. clo.left_150
+  - first:
+      213: -7873658833864742296
+    second: pause. clo.left_151
+  - first:
+      213: -3731976659864662036
+    second: pause. clo.left_152
+  - first:
+      213: 2218476786116371401
+    second: pause. clo.left_153
+  - first:
+      213: -7272793362741443228
+    second: pause. clo.left_154
+  - first:
+      213: 9194630232495932227
+    second: pause. clo.left_155
+  - first:
+      213: -5716149723153330054
+    second: pause. clo.left_156
+  - first:
+      213: 8526806828468368550
+    second: pause. clo.left_157
+  - first:
+      213: -1883701781678986397
+    second: pause. clo.left_158
+  - first:
+      213: -4280204948953684887
+    second: pause. clo.left_159
+  - first:
+      213: 6175412783120910500
+    second: pause. clo.left_160
+  - first:
+      213: 1280861128135239522
+    second: pause. clo.left_161
+  - first:
+      213: 7690397599071392319
+    second: pause. clo.left_162
+  - first:
+      213: 1140743046326867860
+    second: pause. clo.left_163
+  - first:
+      213: 6643439048475683604
+    second: pause. clo.left_164
+  - first:
+      213: -5485374363486392597
+    second: pause. clo.left_165
+  - first:
+      213: -2868330762619563453
+    second: pause. clo.left_166
+  - first:
+      213: 1514159047287998055
+    second: pause. clo.left_167
+  - first:
+      213: 1609833068289450741
+    second: pause. clo.left_168
+  - first:
+      213: -5701892643035590363
+    second: pause. clo.left_169
+  - first:
+      213: 3110210746865780702
+    second: pause. clo.left_170
+  - first:
+      213: -4370854943616117332
+    second: pause. clo.left_171
+  - first:
+      213: 4197119524452486374
+    second: pause. clo.left_172
+  - first:
+      213: -5891869833132073650
+    second: pause. clo.left_173
+  - first:
+      213: 6224784582198155230
+    second: pause. clo.left_174
+  - first:
+      213: 6933250640891257238
+    second: pause. clo.left_175
+  - first:
+      213: -181681035953195783
+    second: pause. clo.left_176
+  - first:
+      213: -6249198521610503752
+    second: pause. clo.left_177
+  - first:
+      213: -6870953523796424652
+    second: pause. clo.left_178
+  - first:
+      213: -6401164942290040870
+    second: pause. clo.left_179
+  - first:
+      213: 8764359929109917440
+    second: pause. clo.left_180
+  - first:
+      213: 7322746477959601454
+    second: pause. clo.left_181
+  - first:
+      213: 4728937871850591550
+    second: pause. clo.left_182
+  - first:
+      213: 7881534799775498119
+    second: pause. clo.left_183
+  - first:
+      213: 1691348972080643239
+    second: pause. clo.left_184
+  - first:
+      213: -6621425374917727459
+    second: pause. clo.left_185
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pause. clo.left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 647
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600050d3c2799d143a42a84284841fc5
+      internalID: 334178125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 46349635c0497d940b29f39857c49992
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pause. clo.left_0: 334178125
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: b0080b51be0ed6544908b1c1b35620a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6671138893667770816
+    second: win.assets_0
+  - first:
+      213: -46286598048895583
+    second: win.assets_1
+  - first:
+      213: -4280725231015039257
+    second: win.assets_2
+  - first:
+      213: 1240462447460995353
+    second: win.assets_3
+  - first:
+      213: 489844319428490280
+    second: win.assets_4
+  - first:
+      213: 4125658071991814463
+    second: win.assets_5
+  - first:
+      213: 7163949651564670267
+    second: win.assets_6
+  - first:
+      213: 2791081745259345259
+    second: win.assets_7
+  - first:
+      213: 4930090279666709049
+    second: win.assets_8
+  - first:
+      213: -5147195184770201428
+    second: win.assets_9
+  - first:
+      213: 8886344604563407042
+    second: win.assets_10
+  - first:
+      213: 6174253805124912377
+    second: win.assets_11
+  - first:
+      213: 1205909129737161687
+    second: win.assets_12
+  - first:
+      213: -7810174027923172921
+    second: win.assets_13
+  - first:
+      213: -3270797677837746234
+    second: win.assets_14
+  - first:
+      213: -7291356408880361181
+    second: win.assets_15
+  - first:
+      213: 7068259626259730085
+    second: win.assets_16
+  - first:
+      213: 3552314978124060390
+    second: win.assets_17
+  - first:
+      213: 6028885218948532860
+    second: win.assets_18
+  - first:
+      213: 2487110245458630268
+    second: win.assets_19
+  - first:
+      213: -8682415859697715468
+    second: win.assets_20
+  - first:
+      213: -3665964596095889588
+    second: win.assets_21
+  - first:
+      213: 2866488892538305189
+    second: win.assets_22
+  - first:
+      213: -5546630760786436064
+    second: win.assets_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: win.assets_22
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 897
+        width: 582
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa3950e570d7c720800000000000000
+      internalID: 2866488892538305189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win.assets_23
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 465
+        width: 582
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020e11bd5b86603b0800000000000000
+      internalID: -5546630760786436064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win.assets_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1362
+        width: 974
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0145eeedb9c1d3e41886391e278e97b8
+      internalID: -910654716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7e31b122c7649fb4abf4d5a6de19d615
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      win.assets_0: -910654716
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1477 @@
+fileFormatVersion: 2
+guid: d0d56b8da1bff5e4183f5b74482b4172
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7159180030015981829
+    second: credit.words. jayden name_0
+  - first:
+      213: 3392197679485992834
+    second: credit.words. jayden name_1
+  - first:
+      213: 6369214011273264748
+    second: credit.words. jayden name_2
+  - first:
+      213: -1525702032122938082
+    second: credit.words. jayden name_3
+  - first:
+      213: -8774933024811398407
+    second: credit.words. jayden name_4
+  - first:
+      213: -6736598973741610625
+    second: credit.words. jayden name_5
+  - first:
+      213: 4713954914651820592
+    second: credit.words. jayden name_6
+  - first:
+      213: -4907960975457124984
+    second: credit.words. jayden name_7
+  - first:
+      213: 1475647250940432071
+    second: credit.words. jayden name_8
+  - first:
+      213: -796672111083634865
+    second: credit.words. jayden name_9
+  - first:
+      213: -1146268219135877237
+    second: credit.words. jayden name_10
+  - first:
+      213: -7166758181656200448
+    second: credit.words. jayden name_11
+  - first:
+      213: -3030567494228935667
+    second: credit.words. jayden name_12
+  - first:
+      213: -8746934482250798085
+    second: credit.words. jayden name_13
+  - first:
+      213: -3157518412416550661
+    second: credit.words. jayden name_14
+  - first:
+      213: -7565940087320036927
+    second: credit.words. jayden name_15
+  - first:
+      213: -6387181320282678845
+    second: credit.words. jayden name_16
+  - first:
+      213: -8164939640559179816
+    second: credit.words. jayden name_17
+  - first:
+      213: -7103251862565057997
+    second: credit.words. jayden name_18
+  - first:
+      213: -8726151631537279284
+    second: credit.words. jayden name_19
+  - first:
+      213: -2245064272737323885
+    second: credit.words. jayden name_20
+  - first:
+      213: 1122136444140967217
+    second: credit.words. jayden name_21
+  - first:
+      213: -8819102529202863434
+    second: credit.words. jayden name_22
+  - first:
+      213: 19005872471070631
+    second: credit.words. jayden name_23
+  - first:
+      213: 8716700980221194702
+    second: credit.words. jayden name_24
+  - first:
+      213: -4850960291287987154
+    second: credit.words. jayden name_25
+  - first:
+      213: 3451169415665282069
+    second: credit.words. jayden name_26
+  - first:
+      213: -5328503742067014103
+    second: credit.words. jayden name_27
+  - first:
+      213: -187142263071538428
+    second: credit.words. jayden name_28
+  - first:
+      213: -161175577351442543
+    second: credit.words. jayden name_29
+  - first:
+      213: -6221612017830546449
+    second: credit.words. jayden name_30
+  - first:
+      213: -2538601029703699287
+    second: credit.words. jayden name_31
+  - first:
+      213: -3510676607441494261
+    second: credit.words. jayden name_32
+  - first:
+      213: 3648637893003620023
+    second: credit.words. jayden name_33
+  - first:
+      213: 7450459704689806362
+    second: credit.words. jayden name_34
+  - first:
+      213: -1816575279914708561
+    second: credit.words. jayden name_35
+  - first:
+      213: 721867313329044744
+    second: credit.words. jayden name_36
+  - first:
+      213: 2881157759826581742
+    second: credit.words. jayden name_37
+  - first:
+      213: -819790400268010468
+    second: credit.words. jayden name_38
+  - first:
+      213: 1659339119922805681
+    second: credit.words. jayden name_39
+  - first:
+      213: 3424529119709485358
+    second: credit.words. jayden name_40
+  - first:
+      213: 7736397667794944902
+    second: credit.words. jayden name_41
+  - first:
+      213: -7812564570295566558
+    second: credit.words. jayden name_42
+  - first:
+      213: -8414037537377036035
+    second: credit.words. jayden name_43
+  - first:
+      213: -6250106814589318964
+    second: credit.words. jayden name_44
+  - first:
+      213: -865703831205666191
+    second: credit.words. jayden name_45
+  - first:
+      213: -8648139184629984253
+    second: credit.words. jayden name_46
+  - first:
+      213: -7309543909703983377
+    second: credit.words. jayden name_47
+  - first:
+      213: 4936952454468677549
+    second: credit.words. jayden name_48
+  - first:
+      213: -1891959930596322156
+    second: credit.words. jayden name_49
+  - first:
+      213: 7535571277475819003
+    second: credit.words. jayden name_50
+  - first:
+      213: -8885027931610008947
+    second: credit.words. jayden name_51
+  - first:
+      213: -1455430323529372904
+    second: credit.words. jayden name_52
+  - first:
+      213: 8863012249426353601
+    second: credit.words. jayden name_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: credit.words. jayden name_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1171
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5094c2c6e448a5360800000000000000
+      internalID: 7159180030015981829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1170
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fbaad11d1831f20800000000000000
+      internalID: 3392197679485992834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1171
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e3260d56ef36850800000000000000
+      internalID: 6369214011273264748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1170
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d7836d51e93dae0800000000000000
+      internalID: -1525702032122938082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_4
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1171
+        width: 29
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fac540d7ec293680800000000000000
+      internalID: -8774933024811398407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1170
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79ced7eceac282a0800000000000000
+      internalID: -6736598973741610625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1136
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032570fe4055b6140800000000000000
+      internalID: 4713954914651820592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_7
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1170
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88df56e0f7b63ebb0800000000000000
+      internalID: -4907960975457124984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_8
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1172
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce061e3b5d8a7410800000000000000
+      internalID: 1475647250940432071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_9
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1171
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f36689fe6a1f4f0800000000000000
+      internalID: -796672111083634865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_10
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1211
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f161db023a710f0800000000000000
+      internalID: -1146268219135877237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_11
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1171
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bf147a76f8a8c90800000000000000
+      internalID: -7166758181656200448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_12
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1039
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c73aeabe241f5d0800000000000000
+      internalID: -3030567494228935667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_13
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1039
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb63df7e65ac9680800000000000000
+      internalID: -8746934482250798085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1074
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8f720bbbd3e24d0800000000000000
+      internalID: -3157518412416550661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_15
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1038
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9b66f9391600790800000000000000
+      internalID: -7565940087320036927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_16
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1039
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c95a801e6c2c57a0800000000000000
+      internalID: -6387181320282678845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_17
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1021
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7e6f718ae40be80800000000000000
+      internalID: -8164939640559179816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1039
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a8dadc01e2c6d90800000000000000
+      internalID: -7103251862565057997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_19
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1039
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce6602035b76e680800000000000000
+      internalID: -8726151631537279284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_20
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1039
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394329550fde7d0e0800000000000000
+      internalID: -2245064272737323885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_21
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1039
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135da8e8621a29f00800000000000000
+      internalID: 1122136444140967217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1039
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b24d1da9f04c9580800000000000000
+      internalID: -8819102529202863434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_23
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1021
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7d8458db5834000800000000000000
+      internalID: 19005872471070631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_24
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1039
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec13263cb51f7f870800000000000000
+      internalID: 8716700980221194702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_25
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1039
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c014a015dedacb0800000000000000
+      internalID: -4850960291287987154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_26
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 870
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ceb686c4405ef20800000000000000
+      internalID: 3451169415665282069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_27
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 941
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92681c5041a5d06b0800000000000000
+      internalID: -5328503742067014103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_28
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 871
+        width: 29
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403882f6a13276df0800000000000000
+      internalID: -187142263071538428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_29
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 771
+        width: 63
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19faf759aa363cdf0800000000000000
+      internalID: -161175577351442543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_30
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 836
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3b8e255d468a9a0800000000000000
+      internalID: -6221612017830546449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_31
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 870
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4f11640d315ccd0800000000000000
+      internalID: -2538601029703699287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_32
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 871
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f1d24d932974fc0800000000000000
+      internalID: -3510676607441494261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_33
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 771
+        width: 60
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bea28615d092a230800000000000000
+      internalID: 3648637893003620023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_34
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 871
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cc56f80a9556760800000000000000
+      internalID: 7450459704689806362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_35
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 771
+        width: 44
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa19de4586a3ac6e0800000000000000
+      internalID: -1816575279914708561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_36
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 771
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d71f13f76940a00800000000000000
+      internalID: 721867313329044744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_37
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 771
+        width: 73
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8d250b7bdebf720800000000000000
+      internalID: 2881157759826581742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_38
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 771
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cffb179f48f94f0800000000000000
+      internalID: -819790400268010468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_39
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 811
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb78e45328270710800000000000000
+      internalID: 1659339119922805681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_40
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 771
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29d347271f568f20800000000000000
+      internalID: 3424529119709485358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_41
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 622
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683041e80b43d5b60800000000000000
+      internalID: 7736397667794944902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_42
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 623
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ffab28ae1349390800000000000000
+      internalID: -7812564570295566558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_43
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 623
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8d6d170755b3b80800000000000000
+      internalID: -8414037537377036035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_44
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 623
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8c72477f82349a0800000000000000
+      internalID: -6250106814589318964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_45
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 623
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172aa44c3f66cf3f0800000000000000
+      internalID: -865703831205666191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_46
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 658
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3045efb3b33abf780800000000000000
+      internalID: -8648139184629984253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_47
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 623
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee59ffaa884f8a90800000000000000
+      internalID: -7309543909703983377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_48
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 623
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf2999a914938440800000000000000
+      internalID: 4936952454468677549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_49
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 623
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494988797786eb5e0800000000000000
+      internalID: -1891959930596322156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_50
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 623
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2595d62ab39860800000000000000
+      internalID: 7535571277475819003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_51
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 623
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8236fccb2a02b480800000000000000
+      internalID: -8885027931610008947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_52
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 605
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b23baf4d54dcbe0800000000000000
+      internalID: -1455430323529372904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: credit.words. jayden name_53
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 623
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd5efebeaebffa70800000000000000
+      internalID: 8863012249426353601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      credit.words. jayden name_0: 7159180030015981829
+      credit.words. jayden name_1: 3392197679485992834
+      credit.words. jayden name_10: -1146268219135877237
+      credit.words. jayden name_11: -7166758181656200448
+      credit.words. jayden name_12: -3030567494228935667
+      credit.words. jayden name_13: -8746934482250798085
+      credit.words. jayden name_14: -3157518412416550661
+      credit.words. jayden name_15: -7565940087320036927
+      credit.words. jayden name_16: -6387181320282678845
+      credit.words. jayden name_17: -8164939640559179816
+      credit.words. jayden name_18: -7103251862565057997
+      credit.words. jayden name_19: -8726151631537279284
+      credit.words. jayden name_2: 6369214011273264748
+      credit.words. jayden name_20: -2245064272737323885
+      credit.words. jayden name_21: 1122136444140967217
+      credit.words. jayden name_22: -8819102529202863434
+      credit.words. jayden name_23: 19005872471070631
+      credit.words. jayden name_24: 8716700980221194702
+      credit.words. jayden name_25: -4850960291287987154
+      credit.words. jayden name_26: 3451169415665282069
+      credit.words. jayden name_27: -5328503742067014103
+      credit.words. jayden name_28: -187142263071538428
+      credit.words. jayden name_29: -161175577351442543
+      credit.words. jayden name_3: -1525702032122938082
+      credit.words. jayden name_30: -6221612017830546449
+      credit.words. jayden name_31: -2538601029703699287
+      credit.words. jayden name_32: -3510676607441494261
+      credit.words. jayden name_33: 3648637893003620023
+      credit.words. jayden name_34: 7450459704689806362
+      credit.words. jayden name_35: -1816575279914708561
+      credit.words. jayden name_36: 721867313329044744
+      credit.words. jayden name_37: 2881157759826581742
+      credit.words. jayden name_38: -819790400268010468
+      credit.words. jayden name_39: 1659339119922805681
+      credit.words. jayden name_4: -8774933024811398407
+      credit.words. jayden name_40: 3424529119709485358
+      credit.words. jayden name_41: 7736397667794944902
+      credit.words. jayden name_42: -7812564570295566558
+      credit.words. jayden name_43: -8414037537377036035
+      credit.words. jayden name_44: -6250106814589318964
+      credit.words. jayden name_45: -865703831205666191
+      credit.words. jayden name_46: -8648139184629984253
+      credit.words. jayden name_47: -7309543909703983377
+      credit.words. jayden name_48: 4936952454468677549
+      credit.words. jayden name_49: -1891959930596322156
+      credit.words. jayden name_5: -6736598973741610625
+      credit.words. jayden name_50: 7535571277475819003
+      credit.words. jayden name_51: -8885027931610008947
+      credit.words. jayden name_52: -1455430323529372904
+      credit.words. jayden name_53: 8863012249426353601
+      credit.words. jayden name_6: 4713954914651820592
+      credit.words. jayden name_7: -4907960975457124984
+      credit.words. jayden name_8: 1475647250940432071
+      credit.words. jayden name_9: -796672111083634865
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

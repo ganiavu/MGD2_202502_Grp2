@@ -1,0 +1,2252 @@
+fileFormatVersion: 2
+guid: 4542c9cc427fad345a9207f262a586c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8129684694661575184
+    second: screen layer (below screen)_0
+  - first:
+      213: -7689548923371790350
+    second: screen layer (below screen)_1
+  - first:
+      213: -7165301532825233665
+    second: screen layer (below screen)_2
+  - first:
+      213: 8937701463759487116
+    second: screen layer (below screen)_3
+  - first:
+      213: 8595675427903800762
+    second: screen layer (below screen)_4
+  - first:
+      213: 2818370138346764162
+    second: screen layer (below screen)_5
+  - first:
+      213: 3707259599722513065
+    second: screen layer (below screen)_6
+  - first:
+      213: 2303446206092823536
+    second: screen layer (below screen)_7
+  - first:
+      213: -2778000563513746204
+    second: screen layer (below screen)_8
+  - first:
+      213: 1559338921095251670
+    second: screen layer (below screen)_9
+  - first:
+      213: -8086303205493246616
+    second: screen layer (below screen)_10
+  - first:
+      213: 5463355421061652176
+    second: screen layer (below screen)_11
+  - first:
+      213: -6529805523236678137
+    second: screen layer (below screen)_12
+  - first:
+      213: 8053482808479412859
+    second: screen layer (below screen)_13
+  - first:
+      213: 4633505433263645454
+    second: screen layer (below screen)_14
+  - first:
+      213: -6603668767261204812
+    second: screen layer (below screen)_15
+  - first:
+      213: -4107127053703716984
+    second: screen layer (below screen)_16
+  - first:
+      213: 462269301203318016
+    second: screen layer (below screen)_17
+  - first:
+      213: 4372354798656278964
+    second: screen layer (below screen)_18
+  - first:
+      213: 8700607281226974362
+    second: screen layer (below screen)_19
+  - first:
+      213: 6568505370544736232
+    second: screen layer (below screen)_20
+  - first:
+      213: -7667936108991950468
+    second: screen layer (below screen)_21
+  - first:
+      213: -6889225182792974755
+    second: screen layer (below screen)_22
+  - first:
+      213: 985430517672501640
+    second: screen layer (below screen)_23
+  - first:
+      213: -2266061824377891390
+    second: screen layer (below screen)_24
+  - first:
+      213: 3267333379978301252
+    second: screen layer (below screen)_25
+  - first:
+      213: 8097258488771236379
+    second: screen layer (below screen)_26
+  - first:
+      213: -4861568667844574409
+    second: screen layer (below screen)_27
+  - first:
+      213: -3605161587493013189
+    second: screen layer (below screen)_28
+  - first:
+      213: -5157828199274071504
+    second: screen layer (below screen)_29
+  - first:
+      213: -4203879844743571177
+    second: screen layer (below screen)_30
+  - first:
+      213: -4595942325008720222
+    second: screen layer (below screen)_31
+  - first:
+      213: 1570767001513353053
+    second: screen layer (below screen)_32
+  - first:
+      213: -91838582926910728
+    second: screen layer (below screen)_33
+  - first:
+      213: -2158057981508118501
+    second: screen layer (below screen)_34
+  - first:
+      213: -9084808839302126012
+    second: screen layer (below screen)_35
+  - first:
+      213: -1667703719093633769
+    second: screen layer (below screen)_36
+  - first:
+      213: -1370675986179428124
+    second: screen layer (below screen)_37
+  - first:
+      213: -6808437171124692684
+    second: screen layer (below screen)_38
+  - first:
+      213: 5189572825044153931
+    second: screen layer (below screen)_39
+  - first:
+      213: -3043466407631196007
+    second: screen layer (below screen)_40
+  - first:
+      213: -6081950966989070840
+    second: screen layer (below screen)_41
+  - first:
+      213: -7508702071346763690
+    second: screen layer (below screen)_42
+  - first:
+      213: 912769551850328292
+    second: screen layer (below screen)_43
+  - first:
+      213: 7569107794102314513
+    second: screen layer (below screen)_44
+  - first:
+      213: -8026336925743419007
+    second: screen layer (below screen)_45
+  - first:
+      213: 6172199756581924864
+    second: screen layer (below screen)_46
+  - first:
+      213: 436741306921716731
+    second: screen layer (below screen)_47
+  - first:
+      213: -5908032594675424840
+    second: screen layer (below screen)_48
+  - first:
+      213: -9143071668983900262
+    second: screen layer (below screen)_49
+  - first:
+      213: 1165640845380102280
+    second: screen layer (below screen)_50
+  - first:
+      213: 7029989574632155617
+    second: screen layer (below screen)_51
+  - first:
+      213: 6358463484836052375
+    second: screen layer (below screen)_52
+  - first:
+      213: 1883551022595630580
+    second: screen layer (below screen)_53
+  - first:
+      213: -3646041791868562039
+    second: screen layer (below screen)_54
+  - first:
+      213: 5112067596319607642
+    second: screen layer (below screen)_55
+  - first:
+      213: -2558437558548940719
+    second: screen layer (below screen)_56
+  - first:
+      213: -6765559363452956038
+    second: screen layer (below screen)_57
+  - first:
+      213: -4735703849643565558
+    second: screen layer (below screen)_58
+  - first:
+      213: -4511137845465292227
+    second: screen layer (below screen)_59
+  - first:
+      213: -6639096883687140257
+    second: screen layer (below screen)_60
+  - first:
+      213: 8629462129139952136
+    second: screen layer (below screen)_61
+  - first:
+      213: -6186889020862617400
+    second: screen layer (below screen)_62
+  - first:
+      213: 2499802624485503095
+    second: screen layer (below screen)_63
+  - first:
+      213: 4097612788891052216
+    second: screen layer (below screen)_64
+  - first:
+      213: 2653356804124773885
+    second: screen layer (below screen)_65
+  - first:
+      213: 5914289031546884533
+    second: screen layer (below screen)_66
+  - first:
+      213: 2531442553404937097
+    second: screen layer (below screen)_67
+  - first:
+      213: -2013196539038769055
+    second: screen layer (below screen)_68
+  - first:
+      213: -3525342306687636212
+    second: screen layer (below screen)_69
+  - first:
+      213: 8117433239197988719
+    second: screen layer (below screen)_70
+  - first:
+      213: -21621851374925522
+    second: screen layer (below screen)_71
+  - first:
+      213: -1213276153830916197
+    second: screen layer (below screen)_72
+  - first:
+      213: 7420475738231311445
+    second: screen layer (below screen)_73
+  - first:
+      213: 2262198410803375889
+    second: screen layer (below screen)_74
+  - first:
+      213: 3415899713840058200
+    second: screen layer (below screen)_75
+  - first:
+      213: 6050899955314647240
+    second: screen layer (below screen)_76
+  - first:
+      213: -5920448863170139803
+    second: screen layer (below screen)_77
+  - first:
+      213: 2251282776239875595
+    second: screen layer (below screen)_78
+  - first:
+      213: 6831119550901846366
+    second: screen layer (below screen)_79
+  - first:
+      213: 6329313025739334079
+    second: screen layer (below screen)_80
+  - first:
+      213: -1693686965419137013
+    second: screen layer (below screen)_81
+  - first:
+      213: -2802485911447336619
+    second: screen layer (below screen)_82
+  - first:
+      213: 8761822015490848760
+    second: screen layer (below screen)_83
+  - first:
+      213: -621308951094156114
+    second: screen layer (below screen)_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: screen layer (below screen)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 1515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012bb39282172d070800000000000000
+      internalID: 8129684694661575184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1502
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffdf63cefb394590800000000000000
+      internalID: -7689548923371790350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1489
+        width: 113
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6d363283cbf8c90800000000000000
+      internalID: -7165301532825233665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1500
+        width: 53
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c808fd79028190c70800000000000000
+      internalID: 8937701463759487116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1500
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab582c48249f94770800000000000000
+      internalID: 8595675427903800762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1507
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2873abd55bcdc1720800000000000000
+      internalID: 2818370138346764162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1503
+        width: 90
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a20e9bc6f4d27330800000000000000
+      internalID: 3707259599722513065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_7
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1504
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb4269ce1c77ff10800000000000000
+      internalID: 2303446206092823536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_8
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1509
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec9de9b43f8279d0800000000000000
+      internalID: -2778000563513746204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1509
+        width: 92
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6c25cac72e3a510800000000000000
+      internalID: 1559338921095251670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1503
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865f872e31ea7cf80800000000000000
+      internalID: -8086303205493246616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1510
+        width: 51
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de95123fccb1db40800000000000000
+      internalID: 5463355421061652176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_12
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1505
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706181719787165a0800000000000000
+      internalID: -6529805523236678137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_13
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1508
+        width: 55
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b727124f1f7b3cf60800000000000000
+      internalID: 8053482808479412859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_14
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1510
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03a58664a48d4040800000000000000
+      internalID: 4633505433263645454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_15
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1503
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bedd017e3e0b54a0800000000000000
+      internalID: -6603668767261204812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_16
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1510
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fd79484bd8007c0800000000000000
+      internalID: -4107127053703716984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_17
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1502
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005bac0fa7f4a6600800000000000000
+      internalID: 462269301203318016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_18
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1497
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1d1ed0689bdac30800000000000000
+      internalID: 4372354798656278964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_19
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1509
+        width: 97
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9406b77934ceb870800000000000000
+      internalID: 8700607281226974362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_20
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1510
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7809445d4082b50800000000000000
+      internalID: 6568505370544736232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_21
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1505
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71d42f3cb4069590800000000000000
+      internalID: -7667936108991950468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_22
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1510
+        width: 104
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ef2f9623e8460a0800000000000000
+      internalID: -6889225182792974755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_23
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1495
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881e2b4b5d3fcad00800000000000000
+      internalID: 985430517672501640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_24
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5d1eed6c45d80e0800000000000000
+      internalID: -2266061824377891390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_25
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1497
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f0264e566e75d20800000000000000
+      internalID: 3267333379978301252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_26
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1495
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12d9b5c1bd3f5070800000000000000
+      internalID: 8097258488771236379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_27
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1503
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73384f5ed0d388cb0800000000000000
+      internalID: -4861568667844574409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_28
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1499
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39789b13a4e7fdc0800000000000000
+      internalID: -3605161587493013189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_29
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1496
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ab6c18496bb68b0800000000000000
+      internalID: -5157828199274071504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_30
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1498
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71992a7ed81d8a5c0800000000000000
+      internalID: -4203879844743571177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_31
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1496
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae1ca54ecee730c0800000000000000
+      internalID: -4595942325008720222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_32
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1498
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fdb1ef34c7cc510800000000000000
+      internalID: 1570767001513353053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_33
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1497
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa57ff9b49b9bef0800000000000000
+      internalID: -91838582926910728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_34
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1496
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18138f13b90d02e0800000000000000
+      internalID: -2158057981508118501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_35
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1493
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44661197e764ce180800000000000000
+      internalID: -9084808839302126012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_36
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1499
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d73d8ad402bd8e0800000000000000
+      internalID: -1667703719093633769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_37
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1495
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0fd95e3716afce0800000000000000
+      internalID: -1370675986179428124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_38
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1501
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4391c8b27729381a0800000000000000
+      internalID: -6808437171124692684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_39
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1492
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46f6c42df0150840800000000000000
+      internalID: 5189572825044153931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_40
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1490
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990fe4f5d6f63c5d0800000000000000
+      internalID: -3043466407631196007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_41
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1480
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ed54fa1d1989ba0800000000000000
+      internalID: -6081950966989070840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1490
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658e229bf3bbbc790800000000000000
+      internalID: -7508702071346763690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_43
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1490
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0d4d3421fcaac00800000000000000
+      internalID: 912769551850328292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1487
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116eb169f6fda0960800000000000000
+      internalID: 7569107794102314513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_45
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1486
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18176756719bc9090800000000000000
+      internalID: -8026336925743419007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_46
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1488
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00071d51afe08a550800000000000000
+      internalID: 6172199756581924864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_47
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1491
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb0fc997ed9f0600800000000000000
+      internalID: 436741306921716731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_48
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1494
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b121f048a3720ea0800000000000000
+      internalID: -5908032594675424840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_49
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1490
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97d64652c84d1180800000000000000
+      internalID: -9143071668983900262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_50
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1492
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888219c4c203d2010800000000000000
+      internalID: 1165640845380102280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_51
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1491
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e926aa854a8f8160800000000000000
+      internalID: 7029989574632155617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_52
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1490
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79df1f2d9dccd3850800000000000000
+      internalID: 6358463484836052375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_53
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1494
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5e222fca7b32a10800000000000000
+      internalID: 1883551022595630580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_54
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1492
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985127fce48a66dc0800000000000000
+      internalID: -3646041791868562039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_55
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1490
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b4a6ad466b1f640800000000000000
+      internalID: 5112067596319607642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_56
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1490
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1583cae789a9e7cd0800000000000000
+      internalID: -2558437558548940719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1491
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72919aba97eb12a0800000000000000
+      internalID: -6765559363452956038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_58
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1491
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e9b888076674eb0800000000000000
+      internalID: -4735703849643565558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_59
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1491
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d326834d7083561c0800000000000000
+      internalID: -4511137845465292227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_60
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1493
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54dc6a4f803dd3a0800000000000000
+      internalID: -6639096883687140257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_61
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1491
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80aa21ae51202c770800000000000000
+      internalID: 8629462129139952136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_62
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1492
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c828be0731c32aa0800000000000000
+      internalID: -6186889020862617400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_63
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1488
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7703c011e3511b220800000000000000
+      internalID: 2499802624485503095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_64
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1492
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8e2f41f15add830800000000000000
+      internalID: 4097612788891052216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_65
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1488
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd093c84fd92d420800000000000000
+      internalID: 2653356804124773885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_66
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1489
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b15758f986c31250800000000000000
+      internalID: 5914289031546884533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_67
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1486
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9835205179d712320800000000000000
+      internalID: 2531442553404937097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_68
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1491
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1606c830a60bf04e0800000000000000
+      internalID: -2013196539038769055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_69
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1489
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d2a32a9d7731fc0800000000000000
+      internalID: -3525342306687636212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_70
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1480
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f673856e58ae6a070800000000000000
+      internalID: 8117433239197988719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_71
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1495
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29496d6a0f23bff0800000000000000
+      internalID: -21621851374925522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_72
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1491
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fb47c24c3992fe0800000000000000
+      internalID: -1213276153830916197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_73
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1494
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c8ea95e53daf660800000000000000
+      internalID: 7420475738231311445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_74
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1489
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f636f0871f46f10800000000000000
+      internalID: 2262198410803375889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_75
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1488
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f8bc701b6b76f20800000000000000
+      internalID: 3415899713840058200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_76
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1491
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0e4f7437d19f350800000000000000
+      internalID: 6050899955314647240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_77
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1491
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569e0e7702756dda0800000000000000
+      internalID: -5920448863170139803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_78
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1490
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06abb6d1c92e3f10800000000000000
+      internalID: 2251282776239875595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_79
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1495
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e510bb9e9030dce50800000000000000
+      internalID: 6831119550901846366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_80
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1492
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1227ba9ac36d750800000000000000
+      internalID: 6329313025739334079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_81
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1492
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08ab71bda0de78e0800000000000000
+      internalID: -1693686965419137013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_82
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1492
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559052869e19b19d0800000000000000
+      internalID: -2802485911447336619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_83
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1494
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7778273be389970800000000000000
+      internalID: 8761822015490848760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen layer (below screen)_84
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1485
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea423420dcaa067f0800000000000000
+      internalID: -621308951094156114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      screen layer (below screen)_0: 8129684694661575184
+      screen layer (below screen)_1: -7689548923371790350
+      screen layer (below screen)_10: -8086303205493246616
+      screen layer (below screen)_11: 5463355421061652176
+      screen layer (below screen)_12: -6529805523236678137
+      screen layer (below screen)_13: 8053482808479412859
+      screen layer (below screen)_14: 4633505433263645454
+      screen layer (below screen)_15: -6603668767261204812
+      screen layer (below screen)_16: -4107127053703716984
+      screen layer (below screen)_17: 462269301203318016
+      screen layer (below screen)_18: 4372354798656278964
+      screen layer (below screen)_19: 8700607281226974362
+      screen layer (below screen)_2: -7165301532825233665
+      screen layer (below screen)_20: 6568505370544736232
+      screen layer (below screen)_21: -7667936108991950468
+      screen layer (below screen)_22: -6889225182792974755
+      screen layer (below screen)_23: 985430517672501640
+      screen layer (below screen)_24: -2266061824377891390
+      screen layer (below screen)_25: 3267333379978301252
+      screen layer (below screen)_26: 8097258488771236379
+      screen layer (below screen)_27: -4861568667844574409
+      screen layer (below screen)_28: -3605161587493013189
+      screen layer (below screen)_29: -5157828199274071504
+      screen layer (below screen)_3: 8937701463759487116
+      screen layer (below screen)_30: -4203879844743571177
+      screen layer (below screen)_31: -4595942325008720222
+      screen layer (below screen)_32: 1570767001513353053
+      screen layer (below screen)_33: -91838582926910728
+      screen layer (below screen)_34: -2158057981508118501
+      screen layer (below screen)_35: -9084808839302126012
+      screen layer (below screen)_36: -1667703719093633769
+      screen layer (below screen)_37: -1370675986179428124
+      screen layer (below screen)_38: -6808437171124692684
+      screen layer (below screen)_39: 5189572825044153931
+      screen layer (below screen)_4: 8595675427903800762
+      screen layer (below screen)_40: -3043466407631196007
+      screen layer (below screen)_41: -6081950966989070840
+      screen layer (below screen)_42: -7508702071346763690
+      screen layer (below screen)_43: 912769551850328292
+      screen layer (below screen)_44: 7569107794102314513
+      screen layer (below screen)_45: -8026336925743419007
+      screen layer (below screen)_46: 6172199756581924864
+      screen layer (below screen)_47: 436741306921716731
+      screen layer (below screen)_48: -5908032594675424840
+      screen layer (below screen)_49: -9143071668983900262
+      screen layer (below screen)_5: 2818370138346764162
+      screen layer (below screen)_50: 1165640845380102280
+      screen layer (below screen)_51: 7029989574632155617
+      screen layer (below screen)_52: 6358463484836052375
+      screen layer (below screen)_53: 1883551022595630580
+      screen layer (below screen)_54: -3646041791868562039
+      screen layer (below screen)_55: 5112067596319607642
+      screen layer (below screen)_56: -2558437558548940719
+      screen layer (below screen)_57: -6765559363452956038
+      screen layer (below screen)_58: -4735703849643565558
+      screen layer (below screen)_59: -4511137845465292227
+      screen layer (below screen)_6: 3707259599722513065
+      screen layer (below screen)_60: -6639096883687140257
+      screen layer (below screen)_61: 8629462129139952136
+      screen layer (below screen)_62: -6186889020862617400
+      screen layer (below screen)_63: 2499802624485503095
+      screen layer (below screen)_64: 4097612788891052216
+      screen layer (below screen)_65: 2653356804124773885
+      screen layer (below screen)_66: 5914289031546884533
+      screen layer (below screen)_67: 2531442553404937097
+      screen layer (below screen)_68: -2013196539038769055
+      screen layer (below screen)_69: -3525342306687636212
+      screen layer (below screen)_7: 2303446206092823536
+      screen layer (below screen)_70: 8117433239197988719
+      screen layer (below screen)_71: -21621851374925522
+      screen layer (below screen)_72: -1213276153830916197
+      screen layer (below screen)_73: 7420475738231311445
+      screen layer (below screen)_74: 2262198410803375889
+      screen layer (below screen)_75: 3415899713840058200
+      screen layer (below screen)_76: 6050899955314647240
+      screen layer (below screen)_77: -5920448863170139803
+      screen layer (below screen)_78: 2251282776239875595
+      screen layer (below screen)_79: 6831119550901846366
+      screen layer (below screen)_8: -2778000563513746204
+      screen layer (below screen)_80: 6329313025739334079
+      screen layer (below screen)_81: -1693686965419137013
+      screen layer (below screen)_82: -2802485911447336619
+      screen layer (below screen)_83: 8761822015490848760
+      screen layer (below screen)_84: -621308951094156114
+      screen layer (below screen)_9: 1559338921095251670
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
