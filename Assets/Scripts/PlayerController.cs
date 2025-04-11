@@ -1,7 +1,5 @@
-using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
 using System.Collections;
 
 public class NewMonoBehaviourScript : MonoBehaviour
@@ -24,17 +22,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
             return;
         }
 
-        // Assign the CharacterController
         characterController = GetComponent<CharacterController>();
         if (characterController == null)
         {
             Debug.LogError("CharacterController is missing on this GameObject!");
         }
 
-        // Set the slider to start at the middle position
         movementSlider.value = movementSlider.maxValue / 2;
 
-        // Start the coroutine to increase forward speed
         StartCoroutine(IncreaseForwardSpeed());
     }
 
@@ -42,30 +37,24 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         if (movementSlider == null || characterController == null) return;
 
-        // Calculate the target X position based on slider value
         float normalizedValue = (movementSlider.value - (movementSlider.maxValue / 2)) / (movementSlider.maxValue / 2);
         targetXPosition = normalizedValue * movementRange;
 
-        // Smoothly update the X position
         float smoothedX = Mathf.Lerp(transform.position.x, targetXPosition, smoothSpeed * Time.deltaTime);
 
-        // Continuously update the Z position for forward movement
-        float newZ = transform.position.z + forwardSpeed * Time.deltaTime;
-
-        // Apply the updated position using the CharacterController
-        Vector3 moveDirection = new Vector3(smoothedX - transform.position.x, 0, forwardSpeed * Time.deltaTime);
+        // Only move left-right and forward — no gravity or vertical motion
+        Vector3 moveDirection = new Vector3(smoothedX - transform.position.x, 0f, forwardSpeed * Time.deltaTime);
         characterController.Move(moveDirection);
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.transform.tag == "Obstacle")
+        if (hit.transform.CompareTag("Obstacle"))
         {
             PlayerManager.gameOver = true;
         }
     }
 
-    // Coroutine to increase forward speed every 30 seconds
     private IEnumerator IncreaseForwardSpeed()
     {
         while (true)

@@ -4,47 +4,69 @@ using System.Collections.Generic;
 
 public class TileManager : MonoBehaviour
 {
+    public GameObject[] tilePrefabs;      // Random tiles
+    public GameObject specificTilePrefab; // Set this to the specific tile in Inspector
 
-    public GameObject[] tilePrefabs;
     public float zSpawn = 0;
     public float tileLength = 30;
     public int numberOfTiles = 5;
     private List<GameObject> activeTiles = new List<GameObject>();
     public Transform playerTransform;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private int tileCount = 0;
+
     void Start()
     {
-        //Time.timeScale = 1.0f;
-        
-   for(int i = 0; i < numberOfTiles; i++)
-         if (i == 0)
-            {
-            SpawnTile(0);
-            }
-         
-         else
+        for (int i = 0; i < numberOfTiles; i++)
         {
-            SpawnTile(Random.Range(0, tilePrefabs.Length));
+            if (i == 0)
+            {
+                SpawnTile(0, true); // first tile always fixed
+            }
+            else
+            {
+                SpawnNextTile();
+            }
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(playerTransform.position.z -35 > zSpawn -  (numberOfTiles * tileLength))
+        if (playerTransform.position.z - 10 > zSpawn - (numberOfTiles * tileLength))
         {
-            SpawnTile(Random.Range(0, tilePrefabs.Length));
+            SpawnNextTile();
             DeleteTile();
         }
-
-
     }
 
-
-    public void SpawnTile(int tileIndex)
+    void SpawnNextTile()
     {
-        GameObject go =Instantiate(tilePrefabs[tileIndex], transform.forward * zSpawn, transform.rotation);
+        // Alternate: even = random, odd = specific
+        if (tileCount % 2 == 0)
+        {
+            int randomIndex = Random.Range(0, tilePrefabs.Length);
+            SpawnTile(randomIndex, false);
+        }
+        else
+        {
+            SpawnSpecificTile();
+        }
+
+        tileCount++;
+    }
+
+    void SpawnTile(int tileIndex, bool isFirst = false)
+    {
+        Quaternion rotation = Quaternion.Euler(90f, 90f, 0f);
+        GameObject go = Instantiate(tilePrefabs[tileIndex], transform.forward * zSpawn, rotation);
+        activeTiles.Add(go);
+        zSpawn += tileLength;
+    }
+
+    void SpawnSpecificTile()
+    {
+        Quaternion rotation = Quaternion.Euler(90f, 90f, 0f);
+        GameObject go = Instantiate(specificTilePrefab, transform.forward * zSpawn, rotation);
         activeTiles.Add(go);
         zSpawn += tileLength;
     }
