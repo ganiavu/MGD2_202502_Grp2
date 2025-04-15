@@ -1290,7 +1290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a85613a8bcd9248a02dde3d52ae617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrefabs: []
+  tilePrefabs:
+  - {fileID: 6191500168959533617, guid: b32ef5208172cad4ab7c1594cf72f740, type: 3}
+  - {fileID: 6191500168959533617, guid: f0afdb2ff5b070242a198a9c39c64785, type: 3}
   specificTilePrefab: {fileID: 1326068748535424947, guid: 2a4913993082bb840948975200b29606,
     type: 3}
   zSpawn: 2
