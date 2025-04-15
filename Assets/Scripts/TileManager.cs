@@ -12,7 +12,7 @@ public class TileManager : MonoBehaviour
     public int numberOfTiles = 5;
     private List<GameObject> activeTiles = new List<GameObject>();
     public Transform playerTransform;
-
+    private int lastRandomIndex = -1;
     private int tileCount = 0;
 
     void Start()
@@ -41,10 +41,18 @@ public class TileManager : MonoBehaviour
 
     void SpawnNextTile()
     {
-        // Alternate: even = random, odd = specific
         if (tileCount % 2 == 0)
         {
-            int randomIndex = Random.Range(0, tilePrefabs.Length);
+            int randomIndex;
+
+            // Reroll if same as last
+            do
+            {
+                randomIndex = Random.Range(0, tilePrefabs.Length);
+            }
+            while (tilePrefabs.Length > 1 && randomIndex == lastRandomIndex);
+
+            lastRandomIndex = randomIndex;
             SpawnTile(randomIndex, false);
         }
         else
@@ -54,6 +62,7 @@ public class TileManager : MonoBehaviour
 
         tileCount++;
     }
+
 
     void SpawnTile(int tileIndex, bool isFirst = false)
     {
