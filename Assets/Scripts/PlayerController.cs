@@ -2,17 +2,27 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    public Slider movementSlider; // Reference to the slider in the UI
-    public float movementRange = 5f; // Range of movement on the X-axis (e.g., -5 to 5)
-    public float smoothSpeed = 10f; // Speed of smoothing for left-right movement
-    public float forwardSpeed = 5f; // Adjustable forward movement speed
-    public float speedIncreaseInterval = 30f; // Interval in seconds to increase speed
-    public float speedIncrement = 0.5f; // Amount to increase forward speed
+    [Header("Movement Settings")]
+    public Slider movementSlider;
+    public float movementRange = 5f;
+    public float smoothSpeed = 10f;
+    public float forwardSpeed = 5f;
+    public float speedIncreaseInterval = 30f;
+    public float speedIncrement = 0.5f;
 
-    private float targetXPosition; // Target X position for the player
-    private CharacterController characterController; // CharacterController reference
+    [Header("Tilt Settings")]
+    public float tiltAngle = 20f;    // Max tilt angle on Z
+    public float tiltSpeed = 5f;     // Tilt smoothing speed
+    public float idleDelay = 0.2f;   // Delay before returning to Z = 0
+
+    private float targetXPosition;
+    private CharacterController characterController;
+
+    // Internal tilt tracking
+    private float previousSliderValue = -1f;
+    private float sliderIdleTime = 0f;
 
     void Start()
     {
@@ -37,14 +47,43 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         if (movementSlider == null || characterController == null) return;
 
-        float normalizedValue = (movementSlider.value - (movementSlider.maxValue / 2)) / (movementSlider.maxValue / 2);
+        float currentSliderValue = movementSlider.value;
+        float normalizedValue = (currentSliderValue - (movementSlider.maxValue / 2)) / (movementSlider.maxValue / 2);
         targetXPosition = normalizedValue * movementRange;
 
         float smoothedX = Mathf.Lerp(transform.position.x, targetXPosition, smoothSpeed * Time.deltaTime);
-
-        // Only move left-right and forward — no gravity or vertical motion
         Vector3 moveDirection = new Vector3(smoothedX - transform.position.x, 0f, forwardSpeed * Time.deltaTime);
         characterController.Move(moveDirection);
+
+        // Check if the slider moved
+        if (Mathf.Abs(currentSliderValue - previousSliderValue) < 0.0001f)
+        {
+            sliderIdleTime += Time.deltaTime;
+        }
+        else
+        {
+            sliderIdleTime = 0f;
+        }
+
+        bool shouldReturnToNeutral = sliderIdleTime >= idleDelay;
+        ApplyTilt(normalizedValue, shouldReturnToNeutral);
+
+        previousSliderValue = currentSliderValue;
+    }
+
+    private void ApplyTilt(float input, bool returnToNeutral)
+    {
+        float targetZ = 0f;
+        float targetY = transform.eulerAngles.y;
+        float targetX = 73.6f; // Always lock X
+
+        if (!returnToNeutral)
+        {
+            targetZ = -input * tiltAngle;
+        }
+
+        Quaternion targetRotation = Quaternion.Euler(targetX, targetY, targetZ);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * tiltSpeed);
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
