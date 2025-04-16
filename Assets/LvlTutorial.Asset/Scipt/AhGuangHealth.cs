@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class AhGuangHealth : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class AhGuangHealth : MonoBehaviour
     public string retryScene;     // Scene to reload on retry
     public string mainMenuScene;  // Scene to load for main menu
     public Canvas loseCanvas;
-
+    public TextMeshProUGUI healthText;
 
     // Reference to the LoseHandler script
     //public LoseHandler loseHandler;  // Assign this in the Inspector
@@ -32,7 +33,7 @@ public class AhGuangHealth : MonoBehaviour
         InvokeRepeating("ReduceHealthOverTime", 1f, 1f); // Repeats every second
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("AmaBattery"))  // Ensure the prefab is tagged as "AmaBattery"
         {
@@ -88,6 +89,11 @@ public class AhGuangHealth : MonoBehaviour
             {
                 Debug.LogError("Invalid fillAmount value: " + fillValue);
             }
+        }
+
+        if (healthText != null)
+        {
+            healthText.text = Mathf.CeilToInt(Health).ToString(); // Shows rounded-up integer health
         }
     }
 

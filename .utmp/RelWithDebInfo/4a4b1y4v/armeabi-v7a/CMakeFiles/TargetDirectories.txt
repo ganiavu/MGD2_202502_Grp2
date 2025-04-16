@@ -1,0 +1,5 @@
+C:/Users/LK/Desktop/Assignment/MGD2/MGD2_202502_Grp2/.utmp/RelWithDebInfo/4a4b1y4v/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/LK/Desktop/Assignment/MGD2/MGD2_202502_Grp2/.utmp/RelWithDebInfo/4a4b1y4v/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/LK/Desktop/Assignment/MGD2/MGD2_202502_Grp2/.utmp/RelWithDebInfo/4a4b1y4v/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/LK/Desktop/Assignment/MGD2/MGD2_202502_Grp2/.utmp/RelWithDebInfo/4a4b1y4v/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/LK/Desktop/Assignment/MGD2/MGD2_202502_Grp2/.utmp/RelWithDebInfo/4a4b1y4v/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

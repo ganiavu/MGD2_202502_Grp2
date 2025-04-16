@@ -34,7 +34,7 @@ public class Osc_Balcony : MonoBehaviour
     //    }
     //}
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         // Check if the collided object is the character
         if (other.CompareTag("Player"))
