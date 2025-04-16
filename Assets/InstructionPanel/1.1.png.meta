@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: cf610797f7d1afd44bcae9059746b7c3
+guid: 4024076682eb55b4980e7a99de9bbb87
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -1526153085727984115
-    second: chatL2.2_0
-  - first:
-      213: -2340905100214108572
-    second: chatL2.2_1
-  - first:
-      213: 5221706093267761408
-    second: chatL2.2_2
-  - first:
-      213: -6156132798198547876
-    second: chatL2.2_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -79,7 +67,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -92,7 +80,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -105,7 +93,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -122,38 +110,134 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chatL2.2_0
+      name: 1.1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2322
-        width: 1080
-        height: 678
+        x: 406
+        y: 1524
+        width: 264
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18fe175e2178ead4b8385aabcfb53fdd
-      internalID: -161606332
+      spriteID: 7c8c51c33fafb864a93b5d6820211746
+      internalID: 524403624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1294
+        width: 603
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5502917928f687441ba5a61144588bce
+      internalID: 175690250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 563
+        width: 196
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ee66bb3e0454c4aba6990fe2f330b7
+      internalID: 2126244989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 573
+        width: 259
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e6ef74b50915f419674e831368ecc0
+      internalID: 1799138908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 349
+        width: 519
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93896fd2a6c6ab64695a7f6466aee98c
+      internalID: 1790030391
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: d7117c2a821227746be711de4738e1e3
+    spriteID: 9fb758cfcce6b7e4aa360a31100aa9cb
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      chatL2.2_0: -161606332
+      1.1_0: 524403624
+      1.1_1: 175690250
+      1.1_2: 2126244989
+      1.1_3: 1799138908
+      1.1_4: 1790030391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

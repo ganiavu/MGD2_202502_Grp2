@@ -1,52 +1,7 @@
 fileFormatVersion: 2
-guid: f55160c68a97e3b478f171d911c605fe
+guid: 42cfa10b4238e1e4a8a18af1c2a6deea
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5731458937855270472
-    second: chatT.1_0
-  - first:
-      213: -2281050931899323253
-    second: chatT.1_1
-  - first:
-      213: 6361113913008599401
-    second: chatT.1_2
-  - first:
-      213: 5061680711290576468
-    second: chatT.1_3
-  - first:
-      213: -8807524689067145595
-    second: chatT.1_4
-  - first:
-      213: 7601325835495696733
-    second: chatT.1_5
-  - first:
-      213: -4983450058682071693
-    second: chatT.1_6
-  - first:
-      213: -566029263845015200
-    second: chatT.1_7
-  - first:
-      213: -7118125129384271975
-    second: chatT.1_8
-  - first:
-      213: 8660593320632989773
-    second: chatT.1_9
-  - first:
-      213: 3306191290313477060
-    second: chatT.1_10
-  - first:
-      213: -1095504086731838553
-    second: chatT.1_11
-  - first:
-      213: 4345995026400137436
-    second: chatT.1_12
-  - first:
-      213: -1954685420376389051
-    second: chatT.1_13
-  - first:
-      213: 8449556621025206284
-    second: chatT.1_14
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -112,7 +67,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -125,7 +80,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -138,7 +93,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -155,38 +110,88 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chatT.1_0
+      name: 1.2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 254
-        width: 1080
-        height: 2746
+        x: 180
+        y: 1247
+        width: 610
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0897c0f077ca63d46ab75e93e37e8689
-      internalID: 1329897079
+      spriteID: be3edc1126c3f1941b976367bba48212
+      internalID: -1419556093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.2_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 525
+        width: 380
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc08e4b28b12b44d88ddc1239d985d1
+      internalID: -1403549377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.2_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 349
+        width: 519
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8abc3a4936c3ec45b1841c38f3d58df
+      internalID: -218812282
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 2befe0882e75c0d4b8beab40736965cc
+    spriteID: 6dbad838dfd8c9d448f4d7b267c7a426
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      chatT.1_0: 1329897079
+      1.2_0: -1419556093
+      1.2_1: -1403549377
+      1.2_2: -218812282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
