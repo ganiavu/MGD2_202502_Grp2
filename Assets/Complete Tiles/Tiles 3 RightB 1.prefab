@@ -722,6 +722,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8616163352160472344}
+  - component: {fileID: 746858364230588440}
+  - component: {fileID: 2904887383283819606}
   m_Layer: 0
   m_Name: Balcony
   m_TagString: Untagged
@@ -751,3 +753,37 @@ Transform:
   - {fileID: 5679586769677166231}
   m_Father: {fileID: 5378596922827675353}
   m_LocalEulerAnglesHint: {x: 270, y: 90, z: 0}
+--- !u!114 &746858364230588440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8996241829065381794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77622e96b5162824fb1b86041e76a7c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+--- !u!65 &2904887383283819606
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8996241829065381794}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.495799, y: 2.6334076, z: 3.17321}
+  m_Center: {x: 0.04269025, y: 0.8167003, z: 1.0865948}

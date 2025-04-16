@@ -4,40 +4,40 @@ using UnityEngine;
 
 public class Osc_Balcony : MonoBehaviour
 {
-    public float movementSpeed = 2f; // Speed at which the obstacle falls
+    //public float movementSpeed = 2f; // Speed at which the obstacle falls
     public float damageAmount = 10f; // Amount of damage to inflict on collision
-    private Camera mainCamera;
+    //private Camera mainCamera;
 
-    private void Start()
-    {
-        // Get the main camera
-        mainCamera = Camera.main;
+    //private void Start()
+    //{
+    //    // Get the main camera
+    //    mainCamera = Camera.main;
 
-        // Start moving the obstacle downwards
-        StartCoroutine(MoveDown());
-    }
+    //    // Start moving the obstacle downwards
+    //    //StartCoroutine(MoveDown());
+    //}
 
-    private IEnumerator MoveDown()
-    {
-        while (true)
-        {
-            transform.position += Vector3.down * movementSpeed * Time.deltaTime;
+    //private IEnumerator MoveDown()
+    //{
+    //    while (true)
+    //    {
+    //        //transform.position += Vector3.down * movementSpeed * Time.deltaTime;
 
-            // Check if the obstacle is below the camera's view
-            if (transform.position.y < mainCamera.ViewportToWorldPoint(new Vector3(0, 0, mainCamera.nearClipPlane)).y)
-            {
-                Destroy(gameObject);
-                yield break; // Stop the coroutine since the object is destroyed
-            }
+    //        // Check if the obstacle is below the camera's view
+    //        if (transform.position.y < mainCamera.ViewportToWorldPoint(new Vector3(0, 0, mainCamera.nearClipPlane)).y)
+    //        {
+    //            Destroy(gameObject);
+    //            yield break; // Stop the coroutine since the object is destroyed
+    //        }
 
-            yield return null;
-        }
-    }
+    //        yield return null;
+    //    }
+    //}
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the collided object is the character
-        if (other.CompareTag("Character"))
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Touch");
             AhGuangHealth characterHealth = other.GetComponent<AhGuangHealth>();
