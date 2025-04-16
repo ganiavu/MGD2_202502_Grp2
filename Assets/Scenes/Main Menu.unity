@@ -1909,7 +1909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2c24834f95f92040afa4c22db24fdda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  delay: 1
   gameObject1: {fileID: 720578457}
 --- !u!1 &2018864178
 GameObject:
