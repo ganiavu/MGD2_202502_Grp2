@@ -93,7 +93,7 @@ public class AhGuangHealth : MonoBehaviour
 
         if (healthText != null)
         {
-            healthText.text = Mathf.CeilToInt(Health).ToString(); // Shows rounded-up integer health
+            healthText.text = Mathf.CeilToInt((Health / maxHealth) * 100f).ToString() + "%";
         }
     }
 

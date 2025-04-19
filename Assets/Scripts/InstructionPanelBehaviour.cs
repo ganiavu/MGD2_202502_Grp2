@@ -10,6 +10,7 @@ public class InstructionPanelBehaviour : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 0f;
         // Show first panel and pause game
         ShowPanel(instructionPanel1, true);
         ShowPanel(instructionPanel2, false);
