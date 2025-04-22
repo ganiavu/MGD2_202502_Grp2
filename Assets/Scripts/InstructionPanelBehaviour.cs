@@ -8,43 +8,56 @@ public class InstructionPanelBehaviour : MonoBehaviour
     public Button startButton1;
     public Button startButton2;
 
-    private Animator animator1;
-    private Animator animator2;
-
     private void Start()
     {
-        // Get Animator components
-        animator1 = instructionPanel1.GetComponent<Animator>();
-        animator2 = instructionPanel2.GetComponent<Animator>();
+        // Ensure all animators inside panels play with unscaled time
+        SetAnimatorsToUnscaled(instructionPanel1);
+        SetAnimatorsToUnscaled(instructionPanel2);
 
-        // Ensure their animations play with unscaled time
-        if (animator1 != null) animator1.updateMode = AnimatorUpdateMode.UnscaledTime;
-        if (animator2 != null) animator2.updateMode = AnimatorUpdateMode.UnscaledTime;
-
-        // Pause everything
-        Time.timeScale = 0f;
-
-        // Show first panel only
+        // Show only panel 1 at start, pause game
         ShowPanel(instructionPanel1, true);
         ShowPanel(instructionPanel2, false);
+        UpdateGamePauseState();
 
         // Button listeners
         startButton1.onClick.AddListener(() =>
         {
             ShowPanel(instructionPanel1, false);
             ShowPanel(instructionPanel2, true);
+            UpdateGamePauseState();
         });
 
         startButton2.onClick.AddListener(() =>
         {
             ShowPanel(instructionPanel2, false);
-            Time.timeScale = 1f; // Resume game
+            UpdateGamePauseState();
         });
+    }
+
+    void SetAnimatorsToUnscaled(GameObject panel)
+    {
+        if (panel != null)
+        {
+            Animator[] animators = panel.GetComponentsInChildren<Animator>(true);
+            foreach (var anim in animators)
+            {
+                anim.updateMode = AnimatorUpdateMode.UnscaledTime;
+            }
+        }
     }
 
     void ShowPanel(GameObject panel, bool show)
     {
         if (panel != null)
             panel.SetActive(show);
+    }
+
+    void UpdateGamePauseState()
+    {
+        bool shouldPause = (instructionPanel1 != null && instructionPanel1.activeSelf)
+                        || (instructionPanel2 != null && instructionPanel2.activeSelf);
+
+        Time.timeScale = shouldPause ? 0f : 1f;
+        Debug.Log("Game paused? " + shouldPause);
     }
 }
