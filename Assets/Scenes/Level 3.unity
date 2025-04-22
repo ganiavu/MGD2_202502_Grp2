@@ -194,7 +194,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1383232320, guid: 8576500068f74b84f991947930659922, type: 3}
+  m_Sprite: {fileID: 427993820, guid: 54edeb7c0171b774492eb6a9fe5e1df8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -498,9 +498,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1293280179, guid: 8576500068f74b84f991947930659922, type: 3}
+  m_Sprite: {fileID: -536576564, guid: 54edeb7c0171b774492eb6a9fe5e1df8, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -730,7 +730,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1416501771, guid: 1f18a4ac6d8a2c549a73c0d45251e261, type: 3}
+  m_Sprite: {fileID: -226227960, guid: f035761b6d4db4f4ba92ac2789e2a38d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1250,7 +1250,7 @@ GameObject:
   - component: {fileID: 333799133}
   - component: {fileID: 333799132}
   m_Layer: 5
-  m_Name: InstructionPanel1
+  m_Name: InstructionPanel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1464,7 +1464,7 @@ GameObject:
   - component: {fileID: 433517975}
   - component: {fileID: 433517974}
   m_Layer: 5
-  m_Name: InstructionPanel2
+  m_Name: InstructionPanel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2083,7 +2083,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1782661759, guid: 8576500068f74b84f991947930659922, type: 3}
+  m_Sprite: {fileID: -886478794, guid: 54edeb7c0171b774492eb6a9fe5e1df8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2887,7 +2887,7 @@ GameObject:
   - component: {fileID: 836425087}
   - component: {fileID: 836425086}
   m_Layer: 5
-  m_Name: Button1
+  m_Name: Button2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3051,7 +3051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2077558773, guid: 8576500068f74b84f991947930659922, type: 3}
+  m_Sprite: {fileID: -77120385, guid: 54edeb7c0171b774492eb6a9fe5e1df8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3460,7 +3460,7 @@ GameObject:
   - component: {fileID: 1062565403}
   - component: {fileID: 1062565402}
   m_Layer: 5
-  m_Name: Button2
+  m_Name: Button1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4405,7 +4405,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 774024979, guid: 1f18a4ac6d8a2c549a73c0d45251e261, type: 3}
+  m_Sprite: {fileID: 1185472423, guid: f035761b6d4db4f4ba92ac2789e2a38d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4690,7 +4690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 213141322, guid: 1f18a4ac6d8a2c549a73c0d45251e261, type: 3}
+  m_Sprite: {fileID: -2073028724, guid: f035761b6d4db4f4ba92ac2789e2a38d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -5407,10 +5407,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e2676aeb6f582843a8643fa522dd745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionPanel1: {fileID: 333799130}
-  instructionPanel2: {fileID: 433517972}
-  startButton1: {fileID: 836425086}
-  startButton2: {fileID: 1062565402}
+  instructionPanel1: {fileID: 433517972}
+  instructionPanel2: {fileID: 333799130}
+  startButton1: {fileID: 1062565402}
+  startButton2: {fileID: 836425086}
 --- !u!4 &1917458545
 Transform:
   m_ObjectHideFlags: 0
