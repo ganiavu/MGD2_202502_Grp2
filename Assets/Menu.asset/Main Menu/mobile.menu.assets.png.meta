@@ -1,46 +1,7 @@
 fileFormatVersion: 2
-guid: bf185fad4c121d342bbf2452b635b54c
+guid: bce6a52c628741749bac4da747bad73d
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5042490870982217710
-    second: menu.font_0
-  - first:
-      213: -3304528626452369407
-    second: menu.font_1
-  - first:
-      213: 5961464015972659303
-    second: menu.font_2
-  - first:
-      213: 8153819887502652270
-    second: menu.font_3
-  - first:
-      213: -2442973573611679966
-    second: menu.font_4
-  - first:
-      213: 2922140028841884331
-    second: menu.font_5
-  - first:
-      213: 1030444186113406293
-    second: menu.font_6
-  - first:
-      213: 1629314713755872225
-    second: menu.font_7
-  - first:
-      213: -8723088068294374838
-    second: menu.font_8
-  - first:
-      213: 8462341667371540878
-    second: menu.font_9
-  - first:
-      213: -3744796091009056230
-    second: menu.font_10
-  - first:
-      213: 496458468994370484
-    second: menu.font_11
-  - first:
-      213: -2245196836365803091
-    second: menu.font_12
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -106,7 +67,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -119,7 +80,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -132,7 +93,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -149,38 +110,65 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menu.font_0
+      name: mobile.menu.assets_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 56
-        width: 1080
-        height: 498
+        x: 217
+        y: 366
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f42a18d0516be2946b58d4b6bcabe57f
-      internalID: -1537596477
+      spriteID: 30c27a06b13fc504597c1a10d9e775e1
+      internalID: 597328216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobile.menu.assets_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 360
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ac61da73ced9349a3d9bc174719d6b
+      internalID: 386078729
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: a3c3897f12661114eb018d4ef5cbbe16
+    spriteID: 688513e1e79cf5d40a4d1f9c299491b0
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      menu.font_0: -1537596477
+      mobile.menu.assets_0: 597328216
+      mobile.menu.assets_1: 386078729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

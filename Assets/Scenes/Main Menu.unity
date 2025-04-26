@@ -234,8 +234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1756155351127033848, guid: 46001796d59a24448af6fc737d406d26,
-    type: 3}
+  m_Sprite: {fileID: 597328216, guid: bce6a52c628741749bac4da747bad73d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1318,9 +1317,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1540346849}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 682abe7b1ce3b7142b162bcb4ed2e4cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b217a5a94612544f9e0197ad1f988eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicSource: {fileID: 0}
+  SFXSource: {fileID: 0}
+  background: {fileID: 0}
+  Play: {fileID: 0}
+  HornSound: {fileID: 0}
+  formationSFX: {fileID: 0}
+  deformationSFX: {fileID: 0}
+  ManHurt: {fileID: 0}
 --- !u!1 &1571556241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,8 +1771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5406713201129295307, guid: 46001796d59a24448af6fc737d406d26,
-    type: 3}
+  m_Sprite: {fileID: 386078729, guid: bce6a52c628741749bac4da747bad73d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
