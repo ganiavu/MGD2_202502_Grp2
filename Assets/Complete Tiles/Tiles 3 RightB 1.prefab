@@ -724,6 +724,7 @@ GameObject:
   - component: {fileID: 8616163352160472344}
   - component: {fileID: 746858364230588440}
   - component: {fileID: 2904887383283819606}
+  - component: {fileID: 7084372164444603110}
   m_Layer: 0
   m_Name: Balcony
   m_TagString: Obstacle
@@ -787,3 +788,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.495799, y: 2.6334076, z: 3.17321}
   m_Center: {x: 0.04269025, y: 0.8167003, z: 1.0865948}
+--- !u!64 &7084372164444603110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8996241829065381794}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}

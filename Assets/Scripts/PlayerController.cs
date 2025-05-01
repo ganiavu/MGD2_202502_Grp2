@@ -103,4 +103,17 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Forward speed increased to: " + forwardSpeed);
         }
     }
+
+    public float GetHorizontalInput()
+    {
+        float currentSliderValue = movementSlider.value;
+        float mid = movementSlider.maxValue / 2;
+        float normalized = (currentSliderValue - mid) / mid;
+
+        // Snap to 0 if small to avoid floating point noise
+        if (Mathf.Abs(normalized) < 0.01f)
+            return 0f;
+
+        return normalized;
+    }
 }

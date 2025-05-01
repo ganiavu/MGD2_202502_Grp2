@@ -1,31 +1,56 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform player; // Reference to the player GameObject
-    public Vector3 offset = new Vector3(0, 5, -10); // Offset between the camera and player
-    public float followSpeed = 5f; // Speed at which the camera follows the player
-    public float fixedYPosition = 5f; // Fixed Y-axis value for the camera
+    public Transform player;
+    public Vector3 offset = new Vector3(0, 5, -10);
+    public float followSpeed = 5f;
+    public float fixedYPosition = 5f;
+    public float yawAngle = 25f;
+    public float rotationSpeed = 5f;
 
-    void LateUpdate()
+    private float currentYaw = 0f;
+    private float lastPlayerX = 0f;
+
+    void Start()
     {
         if (player == null)
         {
             Debug.LogError("Player transform is not assigned!");
+            enabled = false;
             return;
         }
 
-        // Target position for the camera, with a fixed Y position
+        lastPlayerX = player.position.x;
+    }
+
+    void LateUpdate()
+    {
+        // Position update
         Vector3 targetPosition = new Vector3(
             player.position.x + offset.x,
-            fixedYPosition, // Keep Y-axis fixed
+            fixedYPosition,
             player.position.z + offset.z
         );
-
-        // Smoothly move the camera to the target position
         transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime);
 
-        // Optional: Align the camera's rotation (if needed)
-        transform.LookAt(player);
+        // Detect X movement
+        float deltaX = player.position.x - lastPlayerX;
+        lastPlayerX = player.position.x;
+
+        // Determine target yaw angle
+        float targetYaw = 0f;
+        if (Mathf.Abs(deltaX) > 0.01f)
+        {
+            targetYaw = Mathf.Sign(deltaX) * yawAngle;
+        }
+
+        // Smoothly interpolate yaw
+        currentYaw = Mathf.Lerp(currentYaw, targetYaw, rotationSpeed * Time.deltaTime);
+
+        // Rotate around Y-axis
+        Quaternion baseRotation = Quaternion.LookRotation(player.position - transform.position);
+        Quaternion yawRotation = Quaternion.Euler(0f, currentYaw, 0f);
+        transform.rotation = baseRotation * yawRotation;
     }
 }
