@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: 596d40180f2539047b623df6928d0fb6
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
-    guid: c850ee8c3b14cc8459e7e186857cf567
+    guid: b88b9931f67948247a4e4e0eae23213c
   - enabled: 1
     path: Assets/Scenes/Credit.unity
     guid: 16d2117e14c34bb44856488dda0c73a2
@@ -20,13 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Volume.unity
     guid: 2ac44be79e3f90c49a5082eee6c9c9db
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scroll.Lvl1.unity
     guid: f51829c28a2d84e48add0b2719591385
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scroll.Lvl2.unity
     guid: e06b58a6ff41cd04993e99e0065af10d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scroll.T.unity
     guid: 73a1997a64b4fc64891f31109bb1d068
   - enabled: 1
@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 2ed005901dba58f4586f313a9826701f
+  - enabled: 1
+    path: Assets/Scenes/Dialogue.unity
+    guid: bcaa25f3f076ceb438e8149d9bfb5d9e
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: fdefe38908b69914eadf277cb5ca7ba3, type: 2}
