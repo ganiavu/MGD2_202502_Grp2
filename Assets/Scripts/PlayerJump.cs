@@ -46,7 +46,7 @@ public class PlayerJump : MonoBehaviour
 
     public void ResetState()
     {
-        velocity = Vector3.zero; // Reset velocity
+        //velocity = Vector3.zero; // Reset velocity
         transform.position = new Vector3(transform.position.x, 0f, transform.position.z); // Reset position
         Debug.Log("Player state reset after scene reload.");
     }

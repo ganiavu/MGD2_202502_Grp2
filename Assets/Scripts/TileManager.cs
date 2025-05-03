@@ -1,17 +1,26 @@
-using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 
 public class TileManager : MonoBehaviour
 {
-    public GameObject[] tilePrefabs;      // Random tiles
-    public GameObject specificTilePrefab; // Set this to the specific tile in Inspector
+    [Header("Tile Prefabs")]
+    public GameObject[] tilePrefabs;          // Random tile prefabs
+    public GameObject startingTilePrefab;     // First tile
+    public GameObject abilityTilePrefab;      // Tile for special abilities
 
+    [Header("Tile Spawn Settings")]
     public float zSpawn = 0;
     public float tileLength = 30;
     public int numberOfTiles = 5;
-    private List<GameObject> activeTiles = new List<GameObject>();
+
+    [Header("Player Reference")]
     public Transform playerTransform;
+
+    [Header("Ability Tile Indexes")]
+    [Tooltip("Spawn ability tile at these tile counts (e.g., 3 = 3rd tile spawned)")]
+    public List<int> abilityTileIndexes = new List<int> { 3, 7, 11 };
+
+    private List<GameObject> activeTiles = new List<GameObject>();
     private int lastRandomIndex = -1;
     private int tileCount = 0;
 
@@ -21,7 +30,7 @@ public class TileManager : MonoBehaviour
         {
             if (i == 0)
             {
-                SpawnTile(0, true); // first tile always fixed
+                SpawnStartingTile(); // First tile
             }
             else
             {
@@ -41,11 +50,14 @@ public class TileManager : MonoBehaviour
 
     void SpawnNextTile()
     {
-        if (tileCount % 2 == 0)
+        if (abilityTileIndexes.Contains(tileCount))
+        {
+            SpawnAbilityTile();
+        }
+        else
         {
             int randomIndex;
 
-            // Reroll if same as last
             do
             {
                 randomIndex = Random.Range(0, tilePrefabs.Length);
@@ -53,18 +65,21 @@ public class TileManager : MonoBehaviour
             while (tilePrefabs.Length > 1 && randomIndex == lastRandomIndex);
 
             lastRandomIndex = randomIndex;
-            SpawnTile(randomIndex, false);
-        }
-        else
-        {
-            SpawnSpecificTile();
+            SpawnRandomTile(randomIndex);
         }
 
         tileCount++;
     }
 
+    void SpawnStartingTile()
+    {
+        Quaternion rotation = Quaternion.Euler(90f, 90f, 0f);
+        GameObject go = Instantiate(startingTilePrefab, transform.forward * zSpawn, rotation);
+        activeTiles.Add(go);
+        zSpawn += tileLength;
+    }
 
-    void SpawnTile(int tileIndex, bool isFirst = false)
+    void SpawnRandomTile(int tileIndex)
     {
         Quaternion rotation = Quaternion.Euler(90f, 90f, 0f);
         GameObject go = Instantiate(tilePrefabs[tileIndex], transform.forward * zSpawn, rotation);
@@ -72,15 +87,15 @@ public class TileManager : MonoBehaviour
         zSpawn += tileLength;
     }
 
-    void SpawnSpecificTile()
+    void SpawnAbilityTile()
     {
         Quaternion rotation = Quaternion.Euler(90f, 90f, 0f);
-        GameObject go = Instantiate(specificTilePrefab, transform.forward * zSpawn, rotation);
+        GameObject go = Instantiate(abilityTilePrefab, transform.forward * zSpawn, rotation);
         activeTiles.Add(go);
         zSpawn += tileLength;
     }
 
-    private void DeleteTile()
+    void DeleteTile()
     {
         Destroy(activeTiles[0]);
         activeTiles.RemoveAt(0);

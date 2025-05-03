@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57747d084ff454a4fb8a143d3aff3adf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerJump: {fileID: 0}
+  playerJump: {fileID: 30728068}
 --- !u!114 &91146788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,7 +481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc22fea47838a646bd55dee377b3295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSlider: {fileID: 0}
+  movementSlider: {fileID: 91146788}
   playerJump: {fileID: 30728068}
 --- !u!4 &103063896
 Transform:
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229848375}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 732962987c3e85a499319a420192394d, type: 3}
   m_Name: 
@@ -2167,13 +2167,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
-  - {fileID: 1326068748535424947, guid: 415f7a5b77fbc9b449f39b455adb633a, type: 3}
-  specificTilePrefab: {fileID: 1326068748535424947, guid: 2a4913993082bb840948975200b29606,
+  - {fileID: 372548165565314374, guid: f9658865890ff324bad438c982938fab, type: 3}
+  - {fileID: 372548165565314374, guid: bd74ce478f311de4c90a8731201481cd, type: 3}
+  - {fileID: 6191500168959533617, guid: e0cb4002e111b214b96d2359c37fc6c0, type: 3}
+  - {fileID: 6191500168959533617, guid: b32ef5208172cad4ab7c1594cf72f740, type: 3}
+  - {fileID: 6191500168959533617, guid: f0afdb2ff5b070242a198a9c39c64785, type: 3}
+  startingTilePrefab: {fileID: 1326068748535424947, guid: 2a4913993082bb840948975200b29606,
     type: 3}
+  abilityTilePrefab: {fileID: 0}
   zSpawn: 2
   tileLength: 13
   numberOfTiles: 15
   playerTransform: {fileID: 30728067}
+  abilityTileIndexes: 03000000070000000b000000
 --- !u!4 &494068909
 Transform:
   m_ObjectHideFlags: 0
@@ -5844,7 +5850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83465199ee2c79d4ebc8b7bff96ccf3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverPanel: {fileID: 0}
+  gameOverPanel: {fileID: 229848375}
 --- !u!4 &2018834571
 Transform:
   m_ObjectHideFlags: 0
@@ -6445,6 +6451,16 @@ PrefabInstance:
       propertyPath: loseCanvas
       value: 
       objectReference: {fileID: 1421206361}
+    - target: {fileID: 4588432370040264746, guid: 7e600859d1c638742b7a07a63d1bd06c,
+        type: 3}
+      propertyPath: retryScene
+      value: Level 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588432370040264746, guid: 7e600859d1c638742b7a07a63d1bd06c,
+        type: 3}
+      propertyPath: mainMenuScene
+      value: Main Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 7633898314263639978, guid: 7e600859d1c638742b7a07a63d1bd06c,
         type: 3}
       propertyPath: m_Enabled
