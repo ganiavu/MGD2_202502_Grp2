@@ -1,3 +1,4 @@
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,16 +11,18 @@ public class InstructionPanelBehaviour : MonoBehaviour
 
     private void Start()
     {
-        // Ensure all animators inside panels play with unscaled time
+        // Set animators to unscaled so UI can animate during pause
         SetAnimatorsToUnscaled(instructionPanel1);
         SetAnimatorsToUnscaled(instructionPanel2);
 
-        // Show only panel 1 at start, pause game
+        // Show panel 1, hide panel 2
         ShowPanel(instructionPanel1, true);
         ShowPanel(instructionPanel2, false);
-        UpdateGamePauseState();
 
-        // Button listeners
+        // Delay pause slightly
+        StartCoroutine(DelayPause());
+
+        // Add button listeners
         startButton1.onClick.AddListener(() =>
         {
             ShowPanel(instructionPanel1, false);
@@ -33,6 +36,13 @@ public class InstructionPanelBehaviour : MonoBehaviour
             UpdateGamePauseState();
         });
     }
+
+    IEnumerator DelayPause()
+    {
+        yield return new WaitForSeconds(0.1f);
+        UpdateGamePauseState();
+    }
+
 
     void SetAnimatorsToUnscaled(GameObject panel)
     {

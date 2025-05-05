@@ -4,9 +4,9 @@ using System.Collections.Generic;
 public class TileManager : MonoBehaviour
 {
     [Header("Tile Prefabs")]
-    public GameObject[] tilePrefabs;          // Random tile prefabs
-    public GameObject startingTilePrefab;     // First tile
-    public GameObject abilityTilePrefab;      // Tile for special abilities
+    public GameObject[] tilePrefabs;         // Random tiles
+    public GameObject startingTilePrefab;    // First tile
+    public GameObject abilityTilePrefab;     // Ability tile
 
     [Header("Tile Spawn Settings")]
     public float zSpawn = 0;
@@ -16,13 +16,14 @@ public class TileManager : MonoBehaviour
     [Header("Player Reference")]
     public Transform playerTransform;
 
-    [Header("Ability Tile Indexes")]
-    [Tooltip("Spawn ability tile at these tile counts (e.g., 3 = 3rd tile spawned)")]
-    public List<int> abilityTileIndexes = new List<int> { 3, 7, 11 };
+    [Header("Ability Tile Timers (seconds)")]
+    [Tooltip("Ability tile will spawn when game time reaches these seconds")]
+    public List<float> abilitySpawnTimes = new List<float> { 15f, 30f, 60f };
 
     private List<GameObject> activeTiles = new List<GameObject>();
     private int lastRandomIndex = -1;
     private int tileCount = 0;
+    private bool spawnAbilityNext = false;
 
     void Start()
     {
@@ -30,7 +31,7 @@ public class TileManager : MonoBehaviour
         {
             if (i == 0)
             {
-                SpawnStartingTile(); // First tile
+                SpawnStartingTile();
             }
             else
             {
@@ -41,6 +42,15 @@ public class TileManager : MonoBehaviour
 
     void Update()
     {
+            Debug.Log("Current Time.timeScale = " + Time.timeScale);
+        
+        // Check if it's time to spawn an ability tile
+        if (abilitySpawnTimes.Count > 0 && Time.time >= abilitySpawnTimes[0])
+        {
+            spawnAbilityNext = true;
+            abilitySpawnTimes.RemoveAt(0);
+        }
+
         if (playerTransform.position.z - 10 > zSpawn - (numberOfTiles * tileLength))
         {
             SpawnNextTile();
@@ -50,9 +60,10 @@ public class TileManager : MonoBehaviour
 
     void SpawnNextTile()
     {
-        if (abilityTileIndexes.Contains(tileCount))
+        if (spawnAbilityNext)
         {
             SpawnAbilityTile();
+            spawnAbilityNext = false;
         }
         else
         {

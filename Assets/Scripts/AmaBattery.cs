@@ -4,8 +4,8 @@ using UnityEngine.EventSystems;
 
 public class AmaBattery : MonoBehaviour
 {
-    public Button button1; // Assign in Inspector
-    public Button button2; // Assign in Inspector
+    private Button button1;
+    private Button button2;
 
     private bool isPlayerInside = false;
     private AhGuangHealth playerHealth;
@@ -13,13 +13,17 @@ public class AmaBattery : MonoBehaviour
 
     private float button1Time = -1f;
     private float button2Time = -1f;
-    private float bufferTime = 1f; // 300ms buffer
+    private float bufferTime = 1f;
 
-    void Start()
+    public void SetupButtons(Button b1, Button b2)
     {
+        button1 = b1;
+        button2 = b2;
+
         AddButtonEvents(button1, true);
         AddButtonEvents(button2, false);
-        Debug.Log("[AmaBattery] Script initialized and button events added.");
+
+        Debug.Log("[AmaBattery] Buttons assigned through SetupButtons.");
     }
 
     void AddButtonEvents(Button button, bool isFirst)

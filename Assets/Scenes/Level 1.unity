@@ -597,7 +597,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229848375}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 732962987c3e85a499319a420192394d, type: 3}
   m_Name: 
@@ -2174,12 +2174,15 @@ MonoBehaviour:
   - {fileID: 6191500168959533617, guid: f0afdb2ff5b070242a198a9c39c64785, type: 3}
   startingTilePrefab: {fileID: 1326068748535424947, guid: 2a4913993082bb840948975200b29606,
     type: 3}
-  abilityTilePrefab: {fileID: 0}
+  abilityTilePrefab: {fileID: 4059749308489074080, guid: c1d47fd22a753334ca302a30c99ce4f7,
+    type: 3}
   zSpawn: 2
   tileLength: 13
   numberOfTiles: 15
   playerTransform: {fileID: 30728067}
-  abilityTileIndexes: 03000000070000000b000000
+  abilitySpawnTimes:
+  - 1
+  - 15
 --- !u!4 &494068909
 Transform:
   m_ObjectHideFlags: 0
@@ -3136,7 +3139,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 867631798}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1421206363}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: QuitGameInLose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &867631798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3734,7 +3749,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1071213621}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1421206363}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: ReplayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1071213621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4327,6 +4354,7 @@ GameObject:
   - component: {fileID: 1421206361}
   - component: {fileID: 1421206360}
   - component: {fileID: 1421206359}
+  - component: {fileID: 1421206363}
   m_Layer: 5
   m_Name: loseCanvas
   m_TagString: Untagged
@@ -4417,6 +4445,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1421206363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421206358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732962987c3e85a499319a420192394d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1435514889
 GameObject:
   m_ObjectHideFlags: 0
@@ -4498,7 +4538,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1435514892}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1421206363}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: NextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1435514892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4631,7 +4683,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1456305773}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1421206363}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: QuitGameInLose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1456305773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5261,7 +5325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5831,6 +5895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018834571}
   - component: {fileID: 2018834570}
+  - component: {fileID: 2018834572}
   m_Layer: 0
   m_Name: PlayerManager
   m_TagString: Untagged
@@ -5850,7 +5915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83465199ee2c79d4ebc8b7bff96ccf3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverPanel: {fileID: 229848375}
+  gameOverPanel: {fileID: 1421206358}
 --- !u!4 &2018834571
 Transform:
   m_ObjectHideFlags: 0
@@ -5866,6 +5931,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2018834572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018834569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b0ea2a50ab21e4aa43678c09fd1094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  batteryPrefab: {fileID: 4059749308489074080, guid: c1d47fd22a753334ca302a30c99ce4f7,
+    type: 3}
+  button1: {fileID: 340007907}
+  button2: {fileID: 806599621}
 --- !u!1 &2036694324
 GameObject:
   m_ObjectHideFlags: 0
@@ -6124,7 +6205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

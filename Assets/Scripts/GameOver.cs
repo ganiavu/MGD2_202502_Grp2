@@ -9,6 +9,11 @@ public class GameOver : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void NextLevel2()
+    {
+        SceneManager.LoadScene("Level 2");
+    }
+
     public void QuitGameInLose()
     {
         SceneManager.LoadScene("Main Menu");
