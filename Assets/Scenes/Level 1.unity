@@ -1334,12 +1334,32 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2042530727407685702, guid: 24381672302ca0c459d615ec4d6b7dcc,
         type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042530727407685702, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2042530727407685702, guid: 24381672302ca0c459d615ec4d6b7dcc,
         type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042530727407685702, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
       propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042530727407685702, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575584419684482015, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
+      propertyPath: m_Maskable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3342724176313424303, guid: 24381672302ca0c459d615ec4d6b7dcc,
@@ -1457,10 +1477,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3477309223925829033, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477309223925829033, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4481398627997031354, guid: 24381672302ca0c459d615ec4d6b7dcc,
         type: 3}
       propertyPath: m_Name
       value: Progress Bar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5473362657609500818, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5473362657609500818, guid: 24381672302ca0c459d615ec4d6b7dcc,
         type: 3}
@@ -1470,6 +1505,16 @@ PrefabInstance:
     - target: {fileID: 5473362657609500818, guid: 24381672302ca0c459d615ec4d6b7dcc,
         type: 3}
       propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431387327127577670, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378708037479278071, guid: 24381672302ca0c459d615ec4d6b7dcc,
+        type: 3}
+      propertyPath: m_Maskable
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2178,10 +2223,10 @@ MonoBehaviour:
     type: 3}
   zSpawn: 2
   tileLength: 13
-  numberOfTiles: 15
+  numberOfTiles: 10
   playerTransform: {fileID: 30728067}
   abilitySpawnTimes:
-  - 1
+  - 3
   - 15
 --- !u!4 &494068909
 Transform:
@@ -3668,6 +3713,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 307447212}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1016937774 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3477309223925829033, guid: 24381672302ca0c459d615ec4d6b7dcc,
+    type: 3}
+  m_PrefabInstance: {fileID: 307447212}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1071213618
 GameObject:
   m_ObjectHideFlags: 0
@@ -5896,6 +5953,7 @@ GameObject:
   - component: {fileID: 2018834571}
   - component: {fileID: 2018834570}
   - component: {fileID: 2018834572}
+  - component: {fileID: 2018834573}
   m_Layer: 0
   m_Name: PlayerManager
   m_TagString: Untagged
@@ -5947,6 +6005,21 @@ MonoBehaviour:
     type: 3}
   button1: {fileID: 340007907}
   button2: {fileID: 806599621}
+--- !u!114 &2018834573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018834569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69fb5fbb988d8a4e89ba898f1aae63a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 30
+  sceneToLoad: Level 2
+  progressSlider: {fileID: 1016937774}
 --- !u!1 &2036694324
 GameObject:
   m_ObjectHideFlags: 0
@@ -6449,6 +6522,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 760840665625168642, guid: 7e600859d1c638742b7a07a63d1bd06c,
         type: 3}
+      propertyPath: tiltAngle
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 760840665625168642, guid: 7e600859d1c638742b7a07a63d1bd06c,
+        type: 3}
       propertyPath: forwardSpeed
       value: 8
       objectReference: {fileID: 0}
@@ -6522,6 +6600,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 611266336}
+    - target: {fileID: 4588432370040264746, guid: 7e600859d1c638742b7a07a63d1bd06c,
+        type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4588432370040264746, guid: 7e600859d1c638742b7a07a63d1bd06c,
         type: 3}
       propertyPath: healthText

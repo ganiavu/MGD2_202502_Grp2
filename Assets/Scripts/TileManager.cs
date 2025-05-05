@@ -18,7 +18,7 @@ public class TileManager : MonoBehaviour
 
     [Header("Ability Tile Timers (seconds)")]
     [Tooltip("Ability tile will spawn when game time reaches these seconds")]
-    public List<float> abilitySpawnTimes = new List<float> { 15f, 30f, 60f };
+    public List<float> abilitySpawnTimes = new List<float> {};
 
     private List<GameObject> activeTiles = new List<GameObject>();
     private int lastRandomIndex = -1;
@@ -42,7 +42,7 @@ public class TileManager : MonoBehaviour
 
     void Update()
     {
-            Debug.Log("Current Time.timeScale = " + Time.timeScale);
+            //Debug.Log("Current Time.timeScale = " + Time.timeScale);
         
         // Check if it's time to spawn an ability tile
         if (abilitySpawnTimes.Count > 0 && Time.time >= abilitySpawnTimes[0])

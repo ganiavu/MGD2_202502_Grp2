@@ -1,7 +1,7 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class AmaSpawnBattery : MonoBehaviour
+public class BatterySpawner : MonoBehaviour
 {
     public GameObject batteryPrefab;
     public Button button1;
@@ -9,15 +9,20 @@ public class AmaSpawnBattery : MonoBehaviour
 
     public void SpawnBattery(Vector3 position)
     {
-        GameObject battery = Instantiate(batteryPrefab, position, Quaternion.identity);
-        AmaBattery ama = battery.GetComponent<AmaBattery>();
-        if (ama != null)
+        GameObject batteryParent = Instantiate(batteryPrefab, position, Quaternion.identity);
+        Debug.Log("[BatterySpawner] Spawned parent battery object.");
+
+        // 🔍 Find AmaBattery script in children
+        AmaBattery batteryScript = batteryParent.GetComponentInChildren<AmaBattery>();
+
+        if (batteryScript != null)
         {
-            ama.SetupButtons(button1, button2);
+            Debug.Log("[BatterySpawner] Found AmaBattery child. Assigning buttons...");
+
         }
         else
         {
-            Debug.LogError("[BatterySpawner] Spawned object has no AmaBattery component!");
+            Debug.LogError("[BatterySpawner] AmaBattery.cs not found in children!");
         }
     }
 }

@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: 2ed005901dba58f4586f313a9826701f
   - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: e2c21c06da4c79a41b1d3fadd69e3a25
+  - enabled: 1
     path: Assets/Scenes/Dialogue.unity
     guid: bcaa25f3f076ceb438e8149d9bfb5d9e
   m_configObjects:

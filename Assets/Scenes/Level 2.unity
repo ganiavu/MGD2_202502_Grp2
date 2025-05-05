@@ -1921,12 +1921,16 @@ MonoBehaviour:
   - {fileID: 1326068748535424947, guid: 4a70d8577ea343f4694b0fee26c1443f, type: 3}
   - {fileID: 1326068748535424947, guid: ab2c3f68462d47b4a9b761f7736857c8, type: 3}
   - {fileID: 1326068748535424947, guid: 9af9883cbe77e1d4fa0e6fb7ee74d1ec, type: 3}
-  specificTilePrefab: {fileID: 1326068748535424947, guid: 2a4913993082bb840948975200b29606,
-    type: 3}
+  startingTilePrefab: {fileID: 0}
+  abilityTilePrefab: {fileID: 0}
   zSpawn: 2
   tileLength: 13
   numberOfTiles: 15
   playerTransform: {fileID: 30728067}
+  abilitySpawnTimes:
+  - 15
+  - 30
+  - 60
 --- !u!4 &494068909
 Transform:
   m_ObjectHideFlags: 0
@@ -6653,6 +6657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018834571}
   - component: {fileID: 2018834570}
+  - component: {fileID: 2018834572}
   m_Layer: 0
   m_Name: PlayerManager
   m_TagString: Untagged
@@ -6688,6 +6693,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2018834572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018834569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69fb5fbb988d8a4e89ba898f1aae63a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 60
+  sceneToLoad: Level 3
+  progressSlider: {fileID: 1084434134}
 --- !u!1 &2038632425
 GameObject:
   m_ObjectHideFlags: 0
