@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3718b4184e309488775c7ffaece108, type: 3}
+  m_Name: endinddialogue
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Ah Kuang
+    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c,
+      type: 3}
+    line: "Ah Ma! I made it. I\u2019ve landed on one of the balconies!"
+  - characterName: Ah Ma (through phone)
+    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634,
+      type: 3}
+    line: Be careful, boy... stay low and out of sight.
+  - characterName: Unknown Male Voice
+    characterSprite: {fileID: -288465649, guid: 0e12fc57a33779d43b796ce3cec77b8d,
+      type: 3}
+    line: Who's there?!
+  - characterName: Unknown Female Voice
+    characterSprite: {fileID: 1758815459, guid: 0e12fc57a33779d43b796ce3cec77b8d,
+      type: 3}
+    line: Wait... he looks familiar.
+  - characterName: 'Unknown Female Voice '
+    characterSprite: {fileID: 1758815459, guid: 0e12fc57a33779d43b796ce3cec77b8d,
+      type: 3}
+    line: Could it be...? Has he returned?
+  - characterName: 'Unknown Male Voice '
+    characterSprite: {fileID: -288465649, guid: 0e12fc57a33779d43b796ce3cec77b8d,
+      type: 3}
+    line: Impossible! No one could survive that fall!
+  - characterName: 'Unknown Male Voice '
+    characterSprite: {fileID: -288465649, guid: 0e12fc57a33779d43b796ce3cec77b8d,
+      type: 3}
+    line: Seize the intruder!

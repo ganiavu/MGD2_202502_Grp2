@@ -1,9 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Collections; 
-
+using System.Collections;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -12,6 +11,8 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI characterNameText;
     public TextMeshProUGUI dialogueText;
     public Image characterImage;
+    public Image fadePanel;
+
 
     public Button nextButton;
     public Button skipButton;
@@ -20,121 +21,94 @@ public class DialogueManager : MonoBehaviour
     public string sceneToLoad;
 
     private int currentLine = 0;
-
     private Coroutine typingCoroutine;
     private bool isTyping = false;
-    private bool canClick = true;
-
 
     void Start()
     {
-        ShowLine();
-
-        // Connect button events
-        nextButton.onClick.AddListener(NextLine);
+        nextButton.onClick.AddListener(NextClicked);
         skipButton.onClick.AddListener(SkipDialogue);
+        ShowLine();
     }
 
     void ShowLine()
     {
         if (typingCoroutine != null)
-        {
             StopCoroutine(typingCoroutine);
-        }
 
-        var line = dialogueData.lines[currentLine];
+        DialogueLine line = dialogueData.lines[currentLine];
         characterNameText.text = line.characterName;
         characterImage.sprite = line.characterSprite;
-        dialogueText.text = "";
-
         typingCoroutine = StartCoroutine(TypeLine(line.line));
     }
 
-    IEnumerator TypeLine(string line)
+    IEnumerator TypeLine(string text)
     {
         isTyping = true;
         dialogueText.text = "";
 
-        foreach (char c in line.ToCharArray())
+        foreach (char c in text)
         {
             dialogueText.text += c;
-            yield return new WaitForSeconds(0.03f); // typing speed
+            yield return new WaitForSeconds(0.03f);
         }
 
         isTyping = false;
-
-        // Start countdown to auto-advance after full line is shown
-        yield return new WaitForSeconds(5f);
-        NextLine();
     }
 
-
-
-    void EndDialogue()
+    public void NextClicked()
     {
-        // Optionally hide UI
-        nextButton.gameObject.SetActive(false);
-        dialogueBox.gameObject.SetActive(false);
-        characterImage.gameObject.SetActive(false);
-        characterNameText.gameObject.SetActive(false);
-        dialogueText.gameObject.SetActive(false);
-
-        // Load next scene
-        SceneManager.LoadScene(sceneToLoad);
-    }
-
-
-    public void SkipDialogue()
-    {
-        SceneManager.LoadScene(sceneToLoad);
-    }
-
-
-    public void NextLine()
-    {
-        if (!canClick) return;
-
         if (isTyping)
         {
-            // Skip typing, show full line immediately
             StopCoroutine(typingCoroutine);
-            var line = dialogueData.lines[currentLine];
-            dialogueText.text = line.line;
+            dialogueText.text = dialogueData.lines[currentLine].line;
             isTyping = false;
-
-            // Prevent auto-advance from triggering twice
-            StopAllCoroutines();
-            StartCoroutine(ClickCooldown());
-            StartCoroutine(AutoAdvance());
-            return;
-        }
-
-        currentLine++;
-
-        if (currentLine < dialogueData.lines.Length)
-        {
-            ShowLine();
         }
         else
         {
-            EndDialogue();
+            currentLine++;
+
+            if (currentLine < dialogueData.lines.Length)
+            {
+                ShowLine();
+            }
+            else
+            {
+                EndDialogue();
+            }
+        }
+        Debug.Log($"Clicked! currentLine = {currentLine}, total = {dialogueData.lines.Length}");
+
+    }
+
+    void EndDialogue()
+    {
+        nextButton.interactable = false;
+        skipButton.interactable = false;
+        StartCoroutine(FadeAndLoadScene());
+    }
+
+
+    void SkipDialogue()
+    {
+        SceneManager.LoadScene(sceneToLoad);
+    }
+
+    IEnumerator FadeAndLoadScene()
+    {
+        float duration = 1.5f;
+        float t = 0f;
+        Color color = fadePanel.color;
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            float alpha = Mathf.Lerp(0f, 1f, t / duration);
+            fadePanel.color = new Color(color.r, color.g, color.b, alpha);
+            yield return null;
         }
 
-        StartCoroutine(ClickCooldown());
-    }
-
-    IEnumerator AutoAdvance()
-    {
-        yield return new WaitForSeconds(5f);
-        NextLine();
-    }
-
-
-    IEnumerator ClickCooldown()
-    {
-        canClick = false;
-        yield return new WaitForSeconds(0.1f); // small delay
-        canClick = true;
+        SceneManager.LoadScene(sceneToLoad);
     }
 
 }
