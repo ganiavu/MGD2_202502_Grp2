@@ -15,7 +15,7 @@ public class SceneTimer : MonoBehaviour
     {
         if (progressSlider != null)
         {
-            progressSlider.interactable = false;
+            progressSlider.interactable = true;
             progressSlider.value = 0f;
         }
     }

@@ -2044,16 +2044,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
-  - {fileID: 372548165565314374, guid: bd74ce478f311de4c90a8731201481cd, type: 3}
-  - {fileID: 6191500168959533617, guid: e0cb4002e111b214b96d2359c37fc6c0, type: 3}
-  - {fileID: 6191500168959533617, guid: b32ef5208172cad4ab7c1594cf72f740, type: 3}
-  - {fileID: 6191500168959533617, guid: f0afdb2ff5b070242a198a9c39c64785, type: 3}
-  - {fileID: 1326068748535424947, guid: 4a70d8577ea343f4694b0fee26c1443f, type: 3}
-  - {fileID: 1326068748535424947, guid: ab2c3f68462d47b4a9b761f7736857c8, type: 3}
-  - {fileID: 1326068748535424947, guid: 9af9883cbe77e1d4fa0e6fb7ee74d1ec, type: 3}
-  startingTilePrefab: {fileID: 1326068748535424947, guid: 2a4913993082bb840948975200b29606,
+  - {fileID: 4756416619618386174, guid: 628c98e2a2241d044a4aeb07f21f7166, type: 3}
+  - {fileID: 8783668893158180423, guid: d292b864866813b4f8636aae7b9dcf54, type: 3}
+  - {fileID: 3924301486103938188, guid: c766b8647b1b84b4db9ba844986cc780, type: 3}
+  - {fileID: 3015395734036277646, guid: 874c9b0135de7b340a2b7fce53c2f80a, type: 3}
+  - {fileID: 8543184221171089851, guid: f8660a75a1a8fb04d80122aad5f91982, type: 3}
+  - {fileID: 1179378314264161934, guid: 7591b4e592d0e0242af17deee1fd1b8e, type: 3}
+  - {fileID: 8543184221171089851, guid: f8660a75a1a8fb04d80122aad5f91982, type: 3}
+  - {fileID: 6198249152383597259, guid: 121bf6da58d2cd8448c2cd8fd746ec15, type: 3}
+  startingTilePrefab: {fileID: 3015395734036277646, guid: 863114cadb1c42a46893c024783cf5a4,
     type: 3}
-  abilityTilePrefab: {fileID: 4059749308489074080, guid: c1d47fd22a753334ca302a30c99ce4f7,
+  abilityTilePrefab: {fileID: 1912521484858391431, guid: 9023547d364af684ab8ce71d9385919e,
     type: 3}
   zSpawn: 2
   tileLength: 13
@@ -2062,7 +2063,7 @@ MonoBehaviour:
   abilitySpawnTimes:
   - 3
   - 20
-  - 40
+  - 30
 --- !u!4 &494068909
 Transform:
   m_ObjectHideFlags: 0
@@ -6631,8 +6632,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 0.43304947, z: 1}
-  m_Center: {x: 3.8779594e-17, y: 0.28347665, z: 0.0000000056158322}
+  m_Size: {x: 2.6078427, y: 0.43304944, z: 1}
+  m_Center: {x: 0.1279063, y: 0.28347665, z: 0.0000000056158322}
 --- !u!4 &1842366911
 Transform:
   m_ObjectHideFlags: 0
