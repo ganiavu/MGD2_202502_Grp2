@@ -1886,14 +1886,16 @@ MonoBehaviour:
   tilePrefabs:
   - {fileID: 1326068748535424947, guid: 9af9883cbe77e1d4fa0e6fb7ee74d1ec, type: 3}
   - {fileID: 1326068748535424947, guid: ab2c3f68462d47b4a9b761f7736857c8, type: 3}
-  startingTilePrefab: {fileID: 0}
-  abilityTilePrefab: {fileID: 0}
+  startingTilePrefab: {fileID: 1326068748535424947, guid: 2a4913993082bb840948975200b29606,
+    type: 3}
+  abilityTilePrefab: {fileID: 4059749308489074080, guid: c1d47fd22a753334ca302a30c99ce4f7,
+    type: 3}
   zSpawn: 2
   tileLength: 13
   numberOfTiles: 15
   playerTransform: {fileID: 30728067}
   abilitySpawnTimes:
-  - 15
+  - 5
   - 30
   - 60
 --- !u!4 &494068909
@@ -1923,8 +1925,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0bf6b5cca7094d428c3a0d2a1f9b3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeSwitch: 60
-  nextSceneName: Level 3
+  delayBeforeSwitch: 120
+  nextSceneName: Ending Scene
   progressBarSlider: {fileID: 1084434134}
 --- !u!1 &529459532
 GameObject:
