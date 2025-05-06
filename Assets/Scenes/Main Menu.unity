@@ -1320,9 +1320,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b217a5a94612544f9e0197ad1f988eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 0}
-  SFXSource: {fileID: 0}
-  background: {fileID: 0}
+  musicSource: {fileID: 1571556243}
+  SFXSource: {fileID: 859283926}
+  background: {fileID: 8300000, guid: 7f79f2da2d9a9794f91ef7e63f332259, type: 3}
   Play: {fileID: 0}
   HornSound: {fileID: 0}
   formationSFX: {fileID: 0}

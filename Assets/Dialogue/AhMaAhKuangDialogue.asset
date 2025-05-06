@@ -14,31 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - characterName: Ah Ma
-    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634, type: 3}
+    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634,
+      type: 3}
     line: "Ah Kuang, come here. There\u2019s something important I need to tell you."
   - characterName: Ah Kuang
-    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c, type: 3}
+    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c,
+      type: 3}
     line: Yes, Ah Ma? What is it?
   - characterName: Ah Ma
-    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634, type: 3}
+    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634,
+      type: 3}
     line: You were actually born into a high-ranking family. I found you in an alley
       when you were just a baby.
   - characterName: Ah Kuang
-    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c, type: 3}
+    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c,
+      type: 3}
     line: What? Why was I left there?
   - characterName: Ah Ma
-    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634, type: 3}
+    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634,
+      type: 3}
     line: "You were missing a leg\u2026 perhaps that\u2019s why your parents abandoned
       you."
   - characterName: Ah Kuang
-    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c, type: 3}
+    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c,
+      type: 3}
     line: How could they just throw me away like that? I need answers!
   - characterName: Ah Ma
-    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634, type: 3}
+    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634,
+      type: 3}
     line: "It\u2019s dangerous to go looking for them, my boy..."
   - characterName: Ah Kuang
-    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c, type: 3}
+    characterSprite: {fileID: 1240127038, guid: 755763281ba2b254fb84430a1da04e6c,
+      type: 3}
     line: "Then I\u2019ll build a jetpack and fly up there to find them!"
   - characterName: Ah Ma
-    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634, type: 3}
+    characterSprite: {fileID: 1153174817, guid: 0c7369cf4648b59449c43b1984824634,
+      type: 3}
     line: "I see I can\u2019t stop you anymore. Please\u2026 be careful on your journey."

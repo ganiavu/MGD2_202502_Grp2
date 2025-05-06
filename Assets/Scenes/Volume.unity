@@ -1166,7 +1166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ded9d2eb61305b41835d9dfe9e3ded7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myMixer: {fileID: 0}
+  myMixer: {fileID: 24100000, guid: 1b0e0bc9e1778e54e9f3f86e275718fd, type: 2}
   MusicSlider: {fileID: 400606988}
   SFXSlider: {fileID: 659382685}
 --- !u!1 &1079888624
@@ -2071,10 +2071,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b217a5a94612544f9e0197ad1f988eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 0}
-  SFXSource: {fileID: 0}
-  background: {fileID: 0}
-  Play: {fileID: 0}
+  musicSource: {fileID: 2132075661}
+  SFXSource: {fileID: 607056598}
+  background: {fileID: 8300000, guid: 7f79f2da2d9a9794f91ef7e63f332259, type: 3}
+  Play: {fileID: 8300000, guid: 6efa2914cbd8f794bb6085220cfdf636, type: 3}
   HornSound: {fileID: 0}
   formationSFX: {fileID: 0}
   deformationSFX: {fileID: 0}
@@ -2404,7 +2404,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 9061404247500409263, guid: 1b0e0bc9e1778e54e9f3f86e275718fd,
     type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7f79f2da2d9a9794f91ef7e63f332259, type: 3}
   m_Resource: {fileID: 8300000, guid: 7f79f2da2d9a9794f91ef7e63f332259, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
