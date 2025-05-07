@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Shield : MonoBehaviour
@@ -24,13 +25,20 @@ public class Shield : MonoBehaviour
         {
             Debug.Log("Hit Obstacle! Re-enabling player collider and disabling shield.");
 
-            if (playerCollider != null)
-            {
-                playerCollider.enabled = true;
-            }
+            StartCoroutine(EnableColliderNextFrame());
 
-            gameObject.SetActive(false); // This should disable the shield
+            //gameObject.SetActive(false); // This should disable the shield
         }
     }
 
+    private IEnumerator EnableColliderNextFrame()
+    {
+        yield return null;
+        if (playerCollider != null)
+        {
+            playerCollider.enabled = true;
+        }
+
+        gameObject.SetActive(false);
+    }
 }

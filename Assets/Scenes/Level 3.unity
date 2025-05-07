@@ -2014,11 +2014,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
-  - {fileID: 1326068748535424947, guid: 9af9883cbe77e1d4fa0e6fb7ee74d1ec, type: 3}
-  - {fileID: 1326068748535424947, guid: ab2c3f68462d47b4a9b761f7736857c8, type: 3}
+  - {fileID: 9038613396755342229, guid: 7713982cfa047cf42a31ecc7dae8ef31, type: 3}
+  - {fileID: 475823259484462257, guid: c04f5b5f9f7d95646a0d7eef8cfea70d, type: 3}
+  - {fileID: 9220624851271663775, guid: a5f419504bf0d13408bf0d5a21f34c5e, type: 3}
+  - {fileID: 6305826937472182004, guid: 13acbbc895601ed4bb3d907508469bcc, type: 3}
+  - {fileID: 8373973333792541988, guid: 61fe184f8c61f23488466fd5c19b8f19, type: 3}
   startingTilePrefab: {fileID: 1326068748535424947, guid: 2a4913993082bb840948975200b29606,
     type: 3}
-  abilityTilePrefab: {fileID: 4059749308489074080, guid: c1d47fd22a753334ca302a30c99ce4f7,
+  abilityTilePrefab: {fileID: 2269787868491160858, guid: 32098e2c38fc22f47993ac93fa9f3ea4,
     type: 3}
   zSpawn: 2
   tileLength: 13

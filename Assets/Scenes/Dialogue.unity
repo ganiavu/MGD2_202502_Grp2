@@ -257,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1668991364}
   SFXSource: {fileID: 1815070687}
-  background: {fileID: 8300000, guid: 7f79f2da2d9a9794f91ef7e63f332259, type: 3}
+  background: {fileID: 8300000, guid: 6efa2914cbd8f794bb6085220cfdf636, type: 3}
   Play: {fileID: 8300000, guid: 6efa2914cbd8f794bb6085220cfdf636, type: 3}
   HornSound: {fileID: 0}
   formationSFX: {fileID: 0}

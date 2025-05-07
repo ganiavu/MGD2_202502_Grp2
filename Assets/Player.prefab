@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7633898314263639978}
   - component: {fileID: 6513239213741635748}
   - component: {fileID: 4588432370040264746}
+  - component: {fileID: 537233514222282209}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -56,7 +57,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2586185412516531059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -198,6 +199,19 @@ MonoBehaviour:
   mainMenuScene: 
   loseCanvas: {fileID: 0}
   healthText: {fileID: 0}
+--- !u!114 &537233514222282209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2586185412516531059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef11ab644a94e1740bc0523b11dca94c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shield1: {fileID: 2349111636076474082}
 --- !u!1 &5695087327386708361
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,6 +260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149169159388901769, guid: 58aba6d1993c44f4483ae735cc58a8b7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8866838336015313725, guid: 58aba6d1993c44f4483ae735cc58a8b7,
         type: 3}
@@ -302,6 +321,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58aba6d1993c44f4483ae735cc58a8b7, type: 3}
+--- !u!1 &2349111636076474082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3149169159388901769, guid: 58aba6d1993c44f4483ae735cc58a8b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 805476089621028715}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8079728488789881942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8866838336015313725, guid: 58aba6d1993c44f4483ae735cc58a8b7,
