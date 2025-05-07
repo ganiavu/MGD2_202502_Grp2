@@ -1,44 +1,54 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
 public class Shield : MonoBehaviour
 {
-    public Collider playerCollider; // Assign this in the inspector
+    public MeshRenderer shieldMeshRenderer;  // Assign in Inspector
+    public GameObject playerObject;          // Assign the player GameObject here
 
     private bool shieldActive = false;
+    private string originalPlayerTag = "Player"; // Default tag
 
     void OnEnable()
     {
-        Debug.Log("Shield activated: Disabling player collider.");
-        if (playerCollider != null)
-        {
-            playerCollider.enabled = false;
-            shieldActive = true;
-        }
+        shieldActive = true;
+
+        if (shieldMeshRenderer != null)
+            shieldMeshRenderer.enabled = true;
+
+        if (playerObject != null)
+            playerObject.tag = originalPlayerTag; // Ensure correct tag when starting
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Shield hit something: " + other.name + " | Tag: " + other.tag);
+        if (!shieldActive || !other.CompareTag("Obstacle")) return;
 
-        if (shieldActive && other.CompareTag("Obstacle"))
+        Debug.Log("Shield hit obstacle. Temporarily untagging player.");
+
+        // Hide the shield visual
+        if (shieldMeshRenderer != null)
+            shieldMeshRenderer.enabled = false;
+
+        // Store current tag and untag the player
+        if (playerObject != null)
         {
-            Debug.Log("Hit Obstacle! Re-enabling player collider and disabling shield.");
-
-            StartCoroutine(EnableColliderNextFrame());
-
-            //gameObject.SetActive(false); // This should disable the shield
+            originalPlayerTag = playerObject.tag;
+            playerObject.tag = "Untagged";
+            StartCoroutine(RestorePlayerTagAfterDelay(2f));
         }
+
+        shieldActive = false;
     }
 
-    private IEnumerator EnableColliderNextFrame()
+    private IEnumerator RestorePlayerTagAfterDelay(float delay)
     {
-        yield return null;
-        if (playerCollider != null)
-        {
-            playerCollider.enabled = true;
-        }
+        yield return new WaitForSeconds(delay);
 
-        gameObject.SetActive(false);
+        if (playerObject != null)
+        {
+            playerObject.tag = originalPlayerTag;
+            Debug.Log("Player tag restored to: " + originalPlayerTag);
+        }
     }
 }
