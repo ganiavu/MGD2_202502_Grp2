@@ -46,6 +46,10 @@ public class Osc_Balcony : MonoBehaviour
                 characterHealth.Health -= damageAmount;
                 characterHealth.Health = Mathf.Clamp(characterHealth.Health, 0, characterHealth.maxHealth); // Ensure health stays within bounds
             }
+            if (UIEffectsManager.Instance != null)
+            {
+                UIEffectsManager.Instance.TriggerRedPanel();
+            }
 
             // Optionally destroy the obstacle or deactivate it
             //Destroy(gameObject);

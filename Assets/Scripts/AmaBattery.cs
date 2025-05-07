@@ -83,7 +83,10 @@ public class AmaBattery : MonoBehaviour
             playerHealth.UpdateHealthBar();
 
             Debug.Log($"[AmaBattery] Healed from {before} to {playerHealth.Health}");
-
+            if (UIEffectsManager.Instance != null)
+            {
+                UIEffectsManager.Instance.TriggerGreenPanel();
+            }
             used = true;
             Destroy(gameObject);
         }
