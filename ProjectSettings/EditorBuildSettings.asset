@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dialogue.unity
     guid: bcaa25f3f076ceb438e8149d9bfb5d9e
+  - enabled: 1
+    path: Assets/Scenes/Ending Scene.unity
+    guid: deaaf6914e6376f4a9b271877498bb99
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: fdefe38908b69914eadf277cb5ca7ba3, type: 2}
