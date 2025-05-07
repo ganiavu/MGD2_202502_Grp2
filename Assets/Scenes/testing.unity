@@ -192,52 +192,25 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a4913993082bb840948975200b29606, type: 3}
---- !u!1 &98768836
+--- !u!1 &62268364 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2349111636076474082, guid: 7e600859d1c638742b7a07a63d1bd06c,
+    type: 3}
+  m_PrefabInstance: {fileID: 606287145}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 98768838}
-  - component: {fileID: 98768837}
-  m_Layer: 0
-  m_Name: GameObject (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &98768837
+--- !u!114 &62268366
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98768836}
+  m_GameObject: {fileID: 62268364}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb753b0ba1251644aa751e01a790c247, type: 3}
+  m_Script: {fileID: 11500000, guid: 28974e728274413479e4aee564cb9ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greenPanel: {fileID: 0}
-  fadeDuration: 1
---- !u!4 &98768838
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98768836}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.966002, y: -2.8037066, z: 10.145682}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  playerCollider: {fileID: 1173144104}
 --- !u!1 &197833307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,6 +1229,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2349111636076474082, guid: 7e600859d1c638742b7a07a63d1bd06c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2586185412516531059, guid: 7e600859d1c638742b7a07a63d1bd06c,
         type: 3}
       propertyPath: m_Name
@@ -1376,10 +1354,15 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7417304946883090979, guid: 7e600859d1c638742b7a07a63d1bd06c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2349111636076474082, guid: 7e600859d1c638742b7a07a63d1bd06c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 62268366}
   m_SourcePrefab: {fileID: 100100000, guid: 7e600859d1c638742b7a07a63d1bd06c, type: 3}
 --- !u!1 &679852760
 GameObject:
@@ -1745,6 +1728,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1871492811169126750, guid: 9023547d364af684ab8ce71d9385919e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1912521484858391431, guid: 9023547d364af684ab8ce71d9385919e,
         type: 3}
       propertyPath: m_Name
@@ -2056,6 +2044,12 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3342724176313424303, guid: 24381672302ca0c459d615ec4d6b7dcc,
     type: 3}
   m_PrefabInstance: {fileID: 555085837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1173144104 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 1042069849257400526, guid: 7e600859d1c638742b7a07a63d1bd06c,
+    type: 3}
+  m_PrefabInstance: {fileID: 606287145}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1282060695
 GameObject:
@@ -3353,6 +3347,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 839041131968275348, guid: 22e4c2ada28fb8e458a18e39f9b165bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5426891611832669815, guid: 22e4c2ada28fb8e458a18e39f9b165bd,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3627,7 +3626,6 @@ SceneRoots:
   - {fileID: 50097917}
   - {fileID: 8787031850382130289}
   - {fileID: 770481010}
-  - {fileID: 98768838}
   - {fileID: 3586729342667275667}
   - {fileID: 360936782}
   - {fileID: 904692318}
