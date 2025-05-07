@@ -76,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0f48d32fd25d09d42929fee7feec99da,
         type: 3}
       propertyPath: m_Name
-      value: L2 Rubblish Left1111
+      value: L2 Rubblish Left
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -179,6 +179,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Trash bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0eed150f88278af44b1936019a224a57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -341,6 +346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Trash bag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0eed150f88278af44b1936019a224a57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
