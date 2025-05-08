@@ -4026,7 +4026,7 @@ MonoBehaviour:
   offset: {x: 0, y: 3.45, z: -6}
   followSpeed: 100
   fixedYPosition: 1.75
-  yawAngle: 15
+  yawAngle: 5
   rotationSpeed: 5
 --- !u!1 &967425220
 GameObject:

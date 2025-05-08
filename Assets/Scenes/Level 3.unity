@@ -4095,7 +4095,7 @@ MonoBehaviour:
   offset: {x: 0, y: 3.45, z: -6}
   followSpeed: 100
   fixedYPosition: 1.75
-  yawAngle: 15
+  yawAngle: 5
   rotationSpeed: 5
 --- !u!1 &1013058148
 GameObject:
@@ -6739,8 +6739,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instructionPanel1: {fileID: 433517972}
   instructionPanel2: {fileID: 333799130}
+  instructionPanel3: {fileID: 0}
   startButton1: {fileID: 1062565402}
   startButton2: {fileID: 836425086}
+  startButton3: {fileID: 0}
 --- !u!4 &1917458545
 Transform:
   m_ObjectHideFlags: 0
