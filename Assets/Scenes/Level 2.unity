@@ -1847,7 +1847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &433517973
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6836,8 +6836,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instructionPanel1: {fileID: 333799130}
   instructionPanel2: {fileID: 433517972}
+  instructionPanel3: {fileID: 0}
   startButton1: {fileID: 836425086}
   startButton2: {fileID: 1062565402}
+  startButton3: {fileID: 0}
 --- !u!4 &1917458545
 Transform:
   m_ObjectHideFlags: 0
