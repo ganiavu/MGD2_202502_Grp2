@@ -1328,6 +1328,7 @@ MonoBehaviour:
   formationSFX: {fileID: 0}
   deformationSFX: {fileID: 0}
   ManHurt: {fileID: 0}
+  usePreviousBGM: 1
 --- !u!1 &1571556241
 GameObject:
   m_ObjectHideFlags: 0
