@@ -45,7 +45,14 @@ public class Osc_Balcony : MonoBehaviour
             {
                 characterHealth.Health -= damageAmount;
                 characterHealth.Health = Mathf.Clamp(characterHealth.Health, 0, characterHealth.maxHealth); // Ensure health stays within bounds
+
+                //  Play hurt sound
+                if (AudioManager.instance != null && AudioManager.instance.ManHurt != null)
+                {
+                    AudioManager.instance.PlaySFX(AudioManager.instance.ManHurt);
+                }
             }
+
             if (UIEffectsManager.Instance != null)
             {
                 UIEffectsManager.Instance.TriggerRedPanel();
