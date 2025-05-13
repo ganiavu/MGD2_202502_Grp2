@@ -8,6 +8,7 @@ public class Shield : MonoBehaviour
 
     private bool shieldActive = false;
     private string originalPlayerTag = "Player"; // Default tag
+    private bool hasPlayedFormationSFX = false;
 
     void OnEnable()
     {
@@ -22,7 +23,17 @@ public class Shield : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Shield") && !hasPlayedFormationSFX)
+        {
+            if (AudioManager.instance != null)
+                AudioManager.instance.PlaySFX(AudioManager.instance.formationSFX);
+
+            hasPlayedFormationSFX = true;
+            return;
+        }
+
         if (!shieldActive || !other.CompareTag("Obstacle")) return;
+        
 
         Debug.Log("Shield hit obstacle. Temporarily untagging player.");
 
@@ -35,6 +46,10 @@ public class Shield : MonoBehaviour
         {
             originalPlayerTag = playerObject.tag;
             playerObject.tag = "Untagged";
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlaySFX(AudioManager.instance.deformationSFX);
+            }
             StartCoroutine(RestorePlayerTagAfterDelay(2f));
         }
 
@@ -50,7 +65,7 @@ public class Shield : MonoBehaviour
             playerObject.tag = originalPlayerTag;
             Debug.Log("Player tag restored to: " + originalPlayerTag);
         }
-
+       
         gameObject.SetActive(false);
     }
 }

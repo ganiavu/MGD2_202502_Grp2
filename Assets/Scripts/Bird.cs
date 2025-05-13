@@ -5,6 +5,8 @@ public class Bird : MonoBehaviour
     public GameObject spriteToSpawn1;
     public GameObject spriteToSpawn2;
 
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnTriggerEnter(Collider collision)
     {
@@ -14,7 +16,10 @@ public class Bird : MonoBehaviour
 
             spriteToSpawn1.SetActive(true);
             spriteToSpawn2.SetActive(true);
-
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlaySFX(AudioManager.instance.BirdShit);
+            }
 
         }
     }

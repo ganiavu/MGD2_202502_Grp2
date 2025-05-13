@@ -7,6 +7,7 @@ public class BirdShitUI : MonoBehaviour
     public RectTransform maskParent;      // UI container (e.g., Panel)
     public GameObject maskPrefab;         // Prefab (UI Image with RectTransform)
     public RectTransform myImageRect;     // The image to be covered
+    public RectTransform maskingAreaRect; // New: UI area where bird shit is allowed to appear
 
     public int gridSize = 10;
     public float coverageThreshold = 0.95f; // 95% coverage required
@@ -29,16 +30,20 @@ public class BirdShitUI : MonoBehaviour
         if (!scriptEnabled)
             return;
 
-        Vector2 localPoint;
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(
-            maskParent, Input.mousePosition, null, out localPoint);
-
-        if (pressed)
+        // Check if mouse is within the masking area (ignores clicks outside it)
+        if (RectTransformUtility.RectangleContainsScreenPoint(maskingAreaRect, Input.mousePosition, null))
         {
-            GameObject ob = Instantiate(maskPrefab, maskParent);
-            ob.GetComponent<RectTransform>().anchoredPosition = localPoint;
-            masks.Add(ob);
-            MarkCoveredCells(ob.GetComponent<RectTransform>());
+            Vector2 localPoint;
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                maskParent, Input.mousePosition, null, out localPoint);
+
+            if (pressed)
+            {
+                GameObject ob = Instantiate(maskPrefab, maskParent);
+                ob.GetComponent<RectTransform>().anchoredPosition = localPoint;
+                masks.Add(ob);
+                MarkCoveredCells(ob.GetComponent<RectTransform>());
+            }
         }
 
         if (Input.GetMouseButtonDown(0))

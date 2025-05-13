@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip formationSFX;
     public AudioClip deformationSFX;
     public AudioClip ManHurt;
+    public AudioClip BirdShit;
 
     [Header("---------Settings----------")]
     public bool usePreviousBGM = false;
