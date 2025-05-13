@@ -50,5 +50,7 @@ public class Shield : MonoBehaviour
             playerObject.tag = originalPlayerTag;
             Debug.Log("Player tag restored to: " + originalPlayerTag);
         }
+
+        gameObject.SetActive(false);
     }
 }

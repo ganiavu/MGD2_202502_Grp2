@@ -467,7 +467,7 @@ Transform:
   m_GameObject: {fileID: 118095233}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 456}
+  m_LocalPosition: {x: 0, y: 0, z: 490}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -998,7 +998,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 222606195}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 542277850}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: NextLevel3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &222606195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1950,7 +1962,6 @@ GameObject:
   m_Component:
   - component: {fileID: 494068909}
   - component: {fileID: 494068908}
-  - component: {fileID: 494068910}
   m_Layer: 0
   m_Name: TileManager
   m_TagString: Untagged
@@ -1990,6 +2001,8 @@ MonoBehaviour:
   - 3
   - 20
   - 30
+  - 50
+  - 80
 --- !u!4 &494068909
 Transform:
   m_ObjectHideFlags: 0
@@ -2005,21 +2018,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &494068910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494068907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0bf6b5cca7094d428c3a0d2a1f9b3dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delayBeforeSwitch: 60
-  nextSceneName: Level 3
-  progressBarSlider: {fileID: 1084434134}
 --- !u!1 &529459532
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,7 +3790,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5573,7 +5571,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1500484090}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 542277850}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: QuitGameInLose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1500484090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7865,8 +7875,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waitTime: 60
-  sceneToLoad: Level 3
   progressSlider: {fileID: 1084434134}
+  canvasToShow: {fileID: 1138471848}
 --- !u!1 &2038632425
 GameObject:
   m_ObjectHideFlags: 0
