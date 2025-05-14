@@ -667,15 +667,15 @@ RectTransform:
   m_GameObject: {fileID: 1343705474}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 327711248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035156, y: -0.000061035156}
-  m_SizeDelta: {x: 1080, y: 1920}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000061035156, y: -0.00012207031}
+  m_SizeDelta: {x: -840, y: -1490}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1343705476
 CanvasRenderer:
@@ -1024,6 +1024,7 @@ MonoBehaviour:
   formationSFX: {fileID: 0}
   deformationSFX: {fileID: 0}
   ManHurt: {fileID: 0}
+  BirdShit: {fileID: 0}
   usePreviousBGM: 0
 --- !u!4 &1580180829
 Transform:
