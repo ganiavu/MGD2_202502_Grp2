@@ -1323,11 +1323,12 @@ MonoBehaviour:
   musicSource: {fileID: 1571556243}
   SFXSource: {fileID: 859283926}
   background: {fileID: 8300000, guid: 7f79f2da2d9a9794f91ef7e63f332259, type: 3}
-  Play: {fileID: 0}
-  HornSound: {fileID: 0}
-  formationSFX: {fileID: 0}
-  deformationSFX: {fileID: 0}
-  ManHurt: {fileID: 0}
+  Play: {fileID: 8300000, guid: e2af2985e093cc04e8b94b6535e26c54, type: 3}
+  HornSound: {fileID: 8300000, guid: 6adb54e9ecd4aff45854ad4235d15bf4, type: 3}
+  formationSFX: {fileID: 8300000, guid: e73423907e1847e499274bdb8d5b9755, type: 3}
+  deformationSFX: {fileID: 8300000, guid: 6e2be3ad616a52b4abfda87522255df4, type: 3}
+  ManHurt: {fileID: 8300000, guid: 1e692b15f78a8ad44aaaa986c2db0ec2, type: 3}
+  BirdShit: {fileID: 8300000, guid: 1b57cdd3640b68b43949fc0be1e90aaf, type: 3}
   usePreviousBGM: 1
 --- !u!1 &1571556241
 GameObject:
