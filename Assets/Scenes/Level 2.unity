@@ -8642,7 +8642,7 @@ PrefabInstance:
         type: 3}
       propertyPath: spriteToSpawn2
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 673042220}
     - target: {fileID: 7398576228936137638, guid: 081fa48519cda3746acd173643ad384a,
         type: 3}
       propertyPath: m_Pivot.x
@@ -8747,7 +8747,7 @@ PrefabInstance:
         type: 3}
       propertyPath: maskParent
       value: 
-      objectReference: {fileID: 2038632429}
+      objectReference: {fileID: 62349690}
     - target: {fileID: 8333906310845783979, guid: 081fa48519cda3746acd173643ad384a,
         type: 3}
       propertyPath: myImageRect
