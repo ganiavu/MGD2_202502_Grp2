@@ -2,37 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Osc_Balcony : MonoBehaviour
+public class Obstacle : MonoBehaviour
 {
-    //public float movementSpeed = 2f; // Speed at which the obstacle falls
+
     public float damageAmount = 10f; // Amount of damage to inflict on collision
-    //private Camera mainCamera;
-
-    //private void Start()
-    //{
-    //    // Get the main camera
-    //    mainCamera = Camera.main;
-
-    //    // Start moving the obstacle downwards
-    //    //StartCoroutine(MoveDown());
-    //}
-
-    //private IEnumerator MoveDown()
-    //{
-    //    while (true)
-    //    {
-    //        //transform.position += Vector3.down * movementSpeed * Time.deltaTime;
-
-    //        // Check if the obstacle is below the camera's view
-    //        if (transform.position.y < mainCamera.ViewportToWorldPoint(new Vector3(0, 0, mainCamera.nearClipPlane)).y)
-    //        {
-    //            Destroy(gameObject);
-    //            yield break; // Stop the coroutine since the object is destroyed
-    //        }
-
-    //        yield return null;
-    //    }
-    //}
 
     private void OnTriggerEnter(Collider other)
     {
@@ -58,8 +31,6 @@ public class Osc_Balcony : MonoBehaviour
                 UIEffectsManager.Instance.TriggerRedPanel();
             }
 
-            // Optionally destroy the obstacle or deactivate it
-            //Destroy(gameObject);
         }
     }
 }
